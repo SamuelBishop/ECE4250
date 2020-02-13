@@ -1,2 +1,3 @@
 # ECE4250
-VHDL Programming
+VHDL Programming, TA: Omar Alkorjia
+Group 5
