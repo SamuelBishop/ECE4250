@@ -1,0 +1,110 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/modelsim_dlx64_2019.1/examples
+Eadder4
+Z0 w1581624071
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z3 d//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/VHDL LAB
+Z4 8//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/VHDL LAB/adder4.vhd
+Z5 F//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/VHDL LAB/adder4.vhd
+l0
+L4
+V5J[8KneK[QS]FY3B^HEI50
+!s100 aV>b317GI^0=BeQO>V]W^1
+Z6 OP;C;2019.1;69
+32
+Z7 !s110 1581624796
+!i10b 1
+Z8 !s108 1581624795.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/VHDL LAB/adder4.vhd|
+Z10 !s107 //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/VHDL LAB/adder4.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Astructure
+R1
+R2
+DEx4 work 6 adder4 0 22 5J[8KneK[QS]FY3B^HEI50
+l19
+L11
+VU9>]<FJKARICIT4EaWV0n2
+!s100 L;RHzb5=5:O?jB2NoFkmg0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Efulladder
+Z13 w1581624765
+R1
+R2
+R3
+Z14 8//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/VHDL LAB/FullAdder.vhd
+Z15 F//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/VHDL LAB/FullAdder.vhd
+l0
+L4
+Vd^Cl>oO6C>6]6kFI0_3cE3
+!s100 QE<<IldWSUJ0Q[FM8OF872
+R6
+32
+R7
+!i10b 1
+Z16 !s108 1581624796.000000
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/VHDL LAB/FullAdder.vhd|
+Z18 !s107 //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/VHDL LAB/FullAdder.vhd|
+!i113 1
+R11
+R12
+Abehave
+R1
+R2
+Z19 DEx4 work 9 fulladder 0 22 d^Cl>oO6C>6]6kFI0_3cE3
+l10
+L9
+Z20 VdmMbX:N@Y19>C?Qf@oEjn1
+Z21 !s100 OTL]H;G08;aY_[zMUhZEb3
+R6
+32
+R7
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R11
+R12
+Efulladder4
+w1581623912
+R1
+R2
+R3
+R14
+R15
+l0
+L4
+V0X6J`b9GANJbG6`gEd54@3
+!s100 DM0[FD@c=hE8631Pmff7>1
+R6
+32
+!s110 1581623938
+!i10b 1
+!s108 1581623937.000000
+R17
+R18
+!i113 1
+R11
+R12

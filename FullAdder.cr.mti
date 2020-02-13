@@ -1,0 +1,9 @@
+{//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/VHDL LAB/Adder4.vhd} {0 {vcom -work work -2002 -explicit -stats=none {//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/VHDL LAB/Adder4.vhd}
+Model Technology ModelSim DE-64 vcom 2019.1 Compiler 2019.01 Jan  2 2019
+-- Loading package STANDARD
+** Error: (vcom-11) Could not find ieee.std_logic_1664.
+** Error (suppressible): //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/VHDL LAB/Adder4.vhd(2): (vcom-1195) Cannot find expanded name "ieee.std_logic_1664".
+** Error: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/VHDL LAB/Adder4.vhd(2): Unknown expanded name.
+** Note: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/VHDL LAB/Adder4.vhd(4): VHDL Compiler exiting
+
+} {4.0 5.0 6.0 7.0} {}}

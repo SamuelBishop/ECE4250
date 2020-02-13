@@ -1,0 +1,9 @@
+{//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/VHDL LAB/adder4.vhd} {1 {vcom -work work -2002 -explicit -stats=none {//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/VHDL LAB/adder4.vhd}
+Model Technology ModelSim DE-64 vcom 2019.1 Compiler 2019.01 Jan  2 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity adder4
+-- Compiling architecture Structure of adder4
+
+} {} {}}
