@@ -1,3 +1,3 @@
-# ECE4250
-VHDL Programming, TA: Omar Alkorjia
-Group 5
+LAB 1:
+
+Simulate a 4-bit full adder logic circuit using VHDL code by using the ModelSim software.
