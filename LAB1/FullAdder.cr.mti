@@ -1,4 +1,12 @@
-{//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/VHDL LAB/Adder4.vhd} {0 {vcom -work work -2002 -explicit -stats=none {//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/VHDL LAB/Adder4.vhd}
+{C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB1/Adder4.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB1/Adder4.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Adder4
+-- Compiling architecture Structure of Adder4
+
+} {} {}} {//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/VHDL LAB/Adder4.vhd} {0 {vcom -work work -2002 -explicit -stats=none {//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/VHDL LAB/Adder4.vhd}
 Model Technology ModelSim DE-64 vcom 2019.1 Compiler 2019.01 Jan  2 2019
 -- Loading package STANDARD
 ** Error: (vcom-11) Could not find ieee.std_logic_1664.
@@ -6,4 +14,12 @@ Model Technology ModelSim DE-64 vcom 2019.1 Compiler 2019.01 Jan  2 2019
 ** Error: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/VHDL LAB/Adder4.vhd(2): Unknown expanded name.
 ** Note: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/VHDL LAB/Adder4.vhd(4): VHDL Compiler exiting
 
-} {4.0 5.0 6.0 7.0} {}}
+} {4.0 5.0 6.0 7.0} {}} {C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB1/FullAdder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB1/FullAdder.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity FullAdder
+-- Compiling architecture behave of FullAdder
+
+} {} {}}

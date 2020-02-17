@@ -10,7 +10,7 @@ entity adder4 is
 
 Architecture Structure of adder4 is
 
-	component FullAdder4
+	component FullAdder
 		port(X,Y,Cin: in std_logic; -- Inputs
 			Cout, Sum: Out std_logic); -- Outputs
 		end component;

@@ -1,14 +1,14 @@
 library IEEE;
 use IEEE.std_logic_1164.all;
 
-entity adder4 is
+entity Adder4 is
 	port(A,B: in std_logic_vector(3 downto 0);
 		Ci: in std_logic; -- Inputs
 		S: out std_logic_vector(3 downto 0);
 		Co: out std_logic); -- Output
-	end adder4;
+	end Adder4;
 
-Architecture Structure of adder4 is
+Architecture Structure of Adder4 is
 
 	component FullAdder
 		port(X,Y,Cin: in std_logic; -- Inputs
