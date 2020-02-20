@@ -10,7 +10,7 @@ z2
 cModel Technology
 dC:/Modeltech_pe_edu_10.4a/examples
 Efullsubtractor
-Z0 w1582225187
+Z0 w1582228061
 Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
 Z3 d//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB2
@@ -22,9 +22,9 @@ VN_;_kzK<<K[MJ@d43hb492
 !s100 _UX[5i`EBdoBAHCGQ@EPg1
 Z6 OP;C;2019.1;69
 32
-Z7 !s110 1582226563
+Z7 !s110 1582228069
 !i10b 1
-Z8 !s108 1582226563.000000
+Z8 !s108 1582228069.000000
 Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB2/fullSubtractor.vhd|
 Z10 !s107 //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB2/fullSubtractor.vhd|
 !i113 1
@@ -33,11 +33,11 @@ Z12 tExplicit 1 CvgOpt 0
 Abehave
 R1
 R2
-DEx4 work 14 fullsubtractor 0 22 N_;_kzK<<K[MJ@d43hb492
+Z13 DEx4 work 14 fullsubtractor 0 22 N_;_kzK<<K[MJ@d43hb492
 l10
 L9
-VjY?fgl6FEA`1cVCe?jofC2
-!s100 OH[IV9ae`ge3KFjmjIlP:3
+VSTX6dR`g30PWX5O^YLLdK0
+!s100 E[5cJPI^>5;bISBFeKRRc3
 R6
 32
 R7
@@ -48,42 +48,61 @@ R10
 !i113 1
 R11
 R12
+Astructure
+R1
+R2
+R13
+l10
+L9
+VQCMN1A]MOAZj7Y2>UUzF<2
+!s100 e2]UO<FcP:GcY:P?R2E:=0
+R6
+32
+!s110 1582227842
+!i10b 1
+!s108 1582227841.000000
+R9
+R10
+!i113 1
+R11
+R12
+w1582227834
 Esubtractor6
-Z13 w1582226554
+Z14 w1582226554
 R1
 R2
 R3
-Z14 8//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB2/subtractor6.vhd
-Z15 F//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB2/subtractor6.vhd
+Z15 8//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB2/subtractor6.vhd
+Z16 F//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB2/subtractor6.vhd
 l0
 L4
 VnQGCh6iWYUaOHSmD3;5:M2
 !s100 J5N;PcFiOlMRF[_KU`l700
 R6
 32
-Z16 !s110 1582226564
+Z17 !s110 1582228070
 !i10b 1
-R8
-Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB2/subtractor6.vhd|
-Z18 !s107 //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB2/subtractor6.vhd|
+Z18 !s108 1582228070.000000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB2/subtractor6.vhd|
+Z20 !s107 //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB2/subtractor6.vhd|
 !i113 1
 R11
 R12
 Astructure
 R1
 R2
-Z19 DEx4 work 11 subtractor6 0 22 nQGCh6iWYUaOHSmD3;5:M2
+Z21 DEx4 work 11 subtractor6 0 22 nQGCh6iWYUaOHSmD3;5:M2
 l19
 L11
-V2:;^a]N6`UWC]XAMWXBGc0
-!s100 f<@2=0iX^Fl34M1b>1D6`1
+Z22 V2:;^a]N6`UWC]XAMWXBGc0
+Z23 !s100 f<@2=0iX^Fl34M1b>1D6`1
 R6
 32
-R16
-!i10b 1
-R8
 R17
+!i10b 1
 R18
+R19
+R20
 !i113 1
 R11
 R12
