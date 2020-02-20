@@ -1,0 +1,88 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Modeltech_pe_edu_10.4a/examples
+Efullsubtractor
+Z0 w1582222284
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 dC:/Users/Sam Bishop/Desktop/git/ECE4250/LAB2
+Z4 8C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB2/fullSubtractor.vhd
+Z5 FC:/Users/Sam Bishop/Desktop/git/ECE4250/LAB2/fullSubtractor.vhd
+l0
+L4
+VQ`>c;J9A9OaYY6B@2[Uhf0
+!s100 _UX[5i`EBdoBAHCGQ@EPg1
+Z6 OP;C;10.4a;61
+32
+Z7 !s110 1582222772
+!i10b 1
+Z8 !s108 1582222771.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB2/fullSubtractor.vhd|
+Z10 !s107 C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB2/fullSubtractor.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit -O0
+Z12 tExplicit 1
+Abehave
+R1
+R2
+DEx4 work 14 fullsubtractor 0 22 Q`>c;J9A9OaYY6B@2[Uhf0
+l10
+L9
+V`b9a`HzZWk>>i4T?=g=l80
+!s100 OH[IV9ae`ge3KFjmjIlP:3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Esubtractor6
+Z13 w1582222763
+R1
+R2
+R3
+Z14 8C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB2/subtractor6.vhd
+Z15 FC:/Users/Sam Bishop/Desktop/git/ECE4250/LAB2/subtractor6.vhd
+l0
+L4
+VKa5o0aIUT`8?PRCJ;VWhe0
+!s100 J5N;PcFiOlMRF[_KU`l700
+R6
+32
+R7
+!i10b 1
+Z16 !s108 1582222772.000000
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB2/subtractor6.vhd|
+Z18 !s107 C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB2/subtractor6.vhd|
+!i113 1
+R11
+R12
+Astructure
+R1
+R2
+DEx4 work 11 subtractor6 0 22 Ka5o0aIUT`8?PRCJ;VWhe0
+l19
+L11
+Vh>EQG_^eof=2?HbJ`7L1C3
+!s100 WC>HU><LGDPZF:F3J@^]M3
+R6
+32
+R7
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R11
+R12
