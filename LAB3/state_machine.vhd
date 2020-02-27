@@ -55,7 +55,7 @@ begin	-- beggining the behavioral portion or architecture
 
 
 
-------------------- 03. OUTPUT LOGIC -------------------
+------------------- 02. OUTPUT LOGIC -------------------
 Z <= '1' when (state = 2) or (state = 3) else '0';
 
 end behave;
