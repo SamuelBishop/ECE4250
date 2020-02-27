@@ -11,8 +11,7 @@ end state_machine;
 
 Architecture behave of state_machine is
 ------------------- 00. STATE DEFINITIONS -------------------
-	type stateval is (s0, s1, s2, s3);
-	signal state, next_state: stateval;
+	signal state: integer range 0 to 6:= 0;
 
 
 
@@ -21,49 +20,42 @@ begin	-- beggining the behavioral portion or architecture
 	process(CLK) -- setting up the clock
 		begin
 			if(CLK'event and CLK='1') then
-				state <= next_state; -- do the clock stuff here
-			end if;
+				case state is
+				-- directions for the 0 state
+				when 0 => if X='0' and Y='0' then state <= 0;
+  		        elsif X='0' and Y='1' then state <= 1;
+				elsif X='1' and Y='0' then state <= 2;
+				elsif X='1' and Y='1' then state <= 1;
+				end if;
+
+				-- directions for the 1st state
+				when 1 => if X='0' and Y='0' then state <= 1;
+        		elsif X='0' and Y='1' then state <= 0;
+				elsif X='1' and Y='0' then state <= 2;
+				elsif X='1' and Y='1' then state <= 3;
+ 				end if;
+
+				-- directions for the 2nd state
+				when 2 => if X='0' and Y='0' then state <= 2; 
+        		elsif X='0' and Y='1' then state <= 3;
+				elsif X='1' and Y='0' then state <= 3;
+				elsif X='1' and Y='1' then state <= 1;
+				end if;
+
+				-- directions for the 3rd state
+				when 3 => if X='0' and Y='0' then state <= 3; 
+        		elsif X='0' and Y='1' then state <= 0;
+				elsif X='1' and Y='0' then state <= 1;
+				elsif X='1' and Y='1' then state <= 0;
+				end if;
+			
+			end case;
+		end if;
 	end process;
 
 
 
-------------------- 02. STATE LOGIC -------------------
-process (state,X,Y)
-   begin
-      case state is
-		-- directions for the 0 state
-		when s0 => if X='0' and Y='0' then next_state <= s0;
-        else if X='0' and Y='1' then next_state <= s1;
-		else if X='1' and Y='0' then next_state <= s2;
-		else if X='1' and Y='1' then next_state <= s1;
-
-		-- directions for the 1st state
-		when s1 => if X='0' and Y='0' then next_state <= s1;
-        else if X='0' and Y='1' then next_state <= s0;
-		else if X='1' and Y='0' then next_state <= s2;
-		else if X='1' and Y='1' then next_state <= s3;
- 		
-
-		-- directions for the 2nd state
-		when s2 => if X='0' and Y='0' then next_state <= s2; 
-        else if X='0' and Y='1' then next_state <= s3;
-		else if X='1' and Y='0' then next_state <= s3;
-		else if X='1' and Y='1' then next_state <= s1;
-		
-
-		-- directions for the 3rd state
-		when s3 => if X='0' and Y='0' then next_state <= s3; 
-        else if X='0' and Y='1' then next_state <= s0;
-		else if X='1' and Y='0' then next_state <= s1;
-		else if X='1' and Y='1' then next_state <= s0;
-		
-			
-		end case;
-end process;
-
-
-
 ------------------- 03. OUTPUT LOGIC -------------------
-Z <= '1' when (state = s2) or (state = s3) else '0';
+Z <= '1' when (state = 2) or (state = 3) else '0';
 
 end behave;
