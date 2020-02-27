@@ -32,28 +32,32 @@ process (state,X,Y)
    begin
       case state is
 		-- directions for the 0 state
-		when s0 => if(X="0" and Y="0") then next_state <= s0; 
-        when s0 => if(X="0" and Y="1") then next_state <= s1;
-		when s0 => if(X="1" and Y="0") then next_state <= s2;
-		when s0 => if(X="1" and Y="1") then next_state <= s1;
+		when s0 => if X='0' and Y='0' then next_state <= s0;
+        else if X='0' and Y='1' then next_state <= s1;
+		else if X='1' and Y='0' then next_state <= s2;
+		else if X='1' and Y='1' then next_state <= s1;
+		end if;
 
 		-- directions for the 1st state
-		when s1 => if(X="0") and (Y="0") then next_state <= s1; 
-        when s1 => if(X="0") and (Y="1") then next_state <= s0;
-		when s1 => if(X="1") and (Y="0") then next_state <= s2;
-		when s1 => if(X="1") and (Y="1") then next_state <= s3;
+		when s1 => if X='0' and Y='0' then next_state <= s1;
+        else if X='0' and Y='1' then next_state <= s0;
+		else if X='1' and Y='0' then next_state <= s2;
+		else if X='1' and Y='1' then next_state <= s3;
+ 		end if;
 
 		-- directions for the 2nd state
-		when s2 => if(X="0") and (Y="0") then next_state <= s2; 
-        when s2 => if(X="0") and (Y="1") then next_state <= s3;
-		when s2 => if(X="1") and (Y="0") then next_state <= s3;
-		when s2 => if(X="1") and (Y="1") then next_state <= s1;
+		when s2 => if X='0' and Y='0' then next_state <= s2; 
+        else if X='0' and Y='1' then next_state <= s3;
+		else if X='1' and Y='0' then next_state <= s3;
+		else if X='1' and Y='1' then next_state <= s1;
+		end if;
 
 		-- directions for the 3rd state
-		when s3 => if(X="0") and (Y="0") then next_state <= s3; 
-        when s3 => if(X="0") and (Y="1") then next_state <= s0;
-		when s3 => if(X="1") and (Y="0") then next_state <= s1;
-		when s3 => if(X="1") and (Y="1") then next_state <= s0;
+		when s3 => if X='0' and Y='0' then next_state <= s3; 
+        else if X='0' and Y='1' then next_state <= s0;
+		else if X='1' and Y='0' then next_state <= s1;
+		else if X='1' and Y='1' then next_state <= s0;
+		end if;
 			
 		end case;
 end process;

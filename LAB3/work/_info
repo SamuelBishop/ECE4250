@@ -9,7 +9,7 @@ z2
 cModel Technology
 dC:/Modeltech_pe_edu_10.4a/examples
 Estate_machine
-w1582767146
+w1582829612
 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
@@ -22,9 +22,9 @@ VBjgo[W9N=_F1MaaM=@<Gf2
 !s100 g<=lMdDMPD`>18^Z_d^5d2
 OP;C;10.4a;61
 32
-!s110 1582767151
+!s110 1582829615
 !i10b 1
-!s108 1582767151.000000
+!s108 1582829615.000000
 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB3/state_machine.vhd|
 !s107 C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB3/state_machine.vhd|
 !i113 1
