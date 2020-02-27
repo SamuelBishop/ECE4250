@@ -1,0 +1,71 @@
+{C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB3/state_machine.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB3/state_machine.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity state_machine
+-- Compiling architecture behave of state_machine
+** Error: C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB3/state_machine.vhd(35): No feasible entries for infix operator "=".
+** Error: C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB3/state_machine.vhd(35): No feasible entries for infix operator "=".
+** Error: C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB3/state_machine.vhd(35): Bad expression in left operand of infix expression "and".
+** Error: C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB3/state_machine.vhd(35): Bad expression in right operand of infix expression "and".
+** Error: C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB3/state_machine.vhd(35): Type error resolving infix expression "and" as type std.STANDARD.BOOLEAN.
+** Error: C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB3/state_machine.vhd(36): near "when": (vcom-1576) expecting END.
+
+** Error: C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB3/state_machine.vhd(37): No feasible entries for infix operator "=".
+** Error: C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB3/state_machine.vhd(37): No feasible entries for infix operator "=".
+** Error: C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB3/state_machine.vhd(37): Bad expression in left operand of infix expression "and".
+** Error: C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB3/state_machine.vhd(37): Bad expression in right operand of infix expression "and".
+** Error: C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB3/state_machine.vhd(37): Type error resolving infix expression "and" as type std.STANDARD.BOOLEAN.
+** Error: C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB3/state_machine.vhd(38): near "when": (vcom-1576) expecting END.
+
+** Error: C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB3/state_machine.vhd(41): No feasible entries for infix operator "=".
+** Error: C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB3/state_machine.vhd(41): No feasible entries for infix operator "=".
+** Error: C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB3/state_machine.vhd(41): Bad expression in left operand of infix expression "and".
+** Error: C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB3/state_machine.vhd(41): Bad expression in right operand of infix expression "and".
+** Error: C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB3/state_machine.vhd(41): Type error resolving infix expression "and" as type std.STANDARD.BOOLEAN.
+** Error: C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB3/state_machine.vhd(42): near "when": (vcom-1576) expecting END.
+
+** Error: C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB3/state_machine.vhd(43): No feasible entries for infix operator "=".
+** Error: C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB3/state_machine.vhd(43): No feasible entries for infix operator "=".
+** Error: C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB3/state_machine.vhd(43): Bad expression in left operand of infix expression "and".
+** Error: C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB3/state_machine.vhd(43): Bad expression in right operand of infix expression "and".
+** Error: C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB3/state_machine.vhd(43): Type error resolving infix expression "and" as type std.STANDARD.BOOLEAN.
+** Error: C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB3/state_machine.vhd(44): near "when": (vcom-1576) expecting END.
+
+** Error: C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB3/state_machine.vhd(47): No feasible entries for infix operator "=".
+** Error: C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB3/state_machine.vhd(47): No feasible entries for infix operator "=".
+** Error: C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB3/state_machine.vhd(47): Bad expression in left operand of infix expression "and".
+** Error: C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB3/state_machine.vhd(47): Bad expression in right operand of infix expression "and".
+** Error: C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB3/state_machine.vhd(47): Type error resolving infix expression "and" as type std.STANDARD.BOOLEAN.
+** Error: C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB3/state_machine.vhd(48): near "when": (vcom-1576) expecting END.
+
+** Error: C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB3/state_machine.vhd(49): No feasible entries for infix operator "=".
+** Error: C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB3/state_machine.vhd(49): No feasible entries for infix operator "=".
+** Error: C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB3/state_machine.vhd(49): Bad expression in left operand of infix expression "and".
+** Error: C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB3/state_machine.vhd(49): Bad expression in right operand of infix expression "and".
+** Error: C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB3/state_machine.vhd(49): Type error resolving infix expression "and" as type std.STANDARD.BOOLEAN.
+** Error: C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB3/state_machine.vhd(50): near "when": (vcom-1576) expecting END.
+
+** Error: C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB3/state_machine.vhd(53): No feasible entries for infix operator "=".
+** Error: C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB3/state_machine.vhd(53): No feasible entries for infix operator "=".
+** Error: C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB3/state_machine.vhd(53): Bad expression in left operand of infix expression "and".
+** Error: C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB3/state_machine.vhd(53): Bad expression in right operand of infix expression "and".
+** Error: C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB3/state_machine.vhd(53): Type error resolving infix expression "and" as type std.STANDARD.BOOLEAN.
+** Error: C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB3/state_machine.vhd(54): near "when": (vcom-1576) expecting END.
+
+** Error: C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB3/state_machine.vhd(55): No feasible entries for infix operator "=".
+** Error: C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB3/state_machine.vhd(55): No feasible entries for infix operator "=".
+** Error: C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB3/state_machine.vhd(55): Bad expression in left operand of infix expression "and".
+** Error: C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB3/state_machine.vhd(55): Bad expression in right operand of infix expression "and".
+** Error: C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB3/state_machine.vhd(55): Type error resolving infix expression "and" as type std.STANDARD.BOOLEAN.
+** Error: C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB3/state_machine.vhd(56): near "when": (vcom-1576) expecting END.
+
+** Error: C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB3/state_machine.vhd(37): Case choice "s0" has already been specified on line 35.
+** Error: C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB3/state_machine.vhd(43): Case choice "s1" has already been specified on line 41.
+** Error: C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB3/state_machine.vhd(49): Case choice "s2" has already been specified on line 47.
+** Error: C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB3/state_machine.vhd(55): Case choice "s3" has already been specified on line 53.
+** Error: C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB3/state_machine.vhd(66): VHDL Compiler exiting
+
+} {9.0 15.0 16.0 22.0 23.0 29.0 30.0 36.0 37.0 43.0 44.0 50.0 51.0 57.0 58.0 64.0 65.0 70.0} {}}

@@ -18,9 +18,9 @@ Architecture Structure of subtractor6 is
 	signal C: std_logic_vector(5 downto 1);
 	begin
 	FS1: fullSubtractor port map (A(0), B(0), Bi, C(1), D(0));
-	FS2: fullSubtractor port map (A(1), B(1), Bi, C(2), D(1));
-	FS3: fullSubtractor port map (A(2), B(2), Bi, C(3), D(2));
-	FS4: fullSubtractor port map (A(3), B(3), C(3), Bo, D(3));
-	FS5: fullSubtractor port map (A(4), B(4), C(4), Bo, D(4));
+	FS2: fullSubtractor port map (A(1), B(1), C(1), C(2), D(1));
+	FS3: fullSubtractor port map (A(2), B(2), C(2), C(3), D(2));
+	FS4: fullSubtractor port map (A(3), B(3), C(3), C(4), D(3));
+	FS5: fullSubtractor port map (A(4), B(4), C(4), C(5), D(4));
 	FS6: fullSubtractor port map (A(5), B(5), C(5), Bo, D(5));
 	end Structure;
