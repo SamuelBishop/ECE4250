@@ -11,11 +11,11 @@ use IEEE.std_logic_arith.all;
 use IEEE.std_logic_unsigned.all;
 
 entity LEDDisplay is
-  	port (Sum	: 	in std_logic_vector(3 downto 0); 
-  	   Cout	: 	in std_logic;  -- Inputs
-    	   counter:	in std_logic_vector (2 downto 0);
-	 --  Anode	:	in std_logic_vector(3 downto 0);
-        segment_a, segment_b, segment_c, segment_d, segment_e, segment_f, segment_g:	out std_logic);
+  	port( 	
+		 hex_digit	: IN	std_logic_VECTOR(3 DOWNTO 0);
+		 segment_a, segment_b, segment_c, segment_d, segment_e, 
+		 segment_f, segment_g: OUT std_logic
+	);
 end LEDDisplay;
 
 architecture Behav of LEDDisplay is
