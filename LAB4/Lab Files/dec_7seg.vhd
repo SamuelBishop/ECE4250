@@ -13,7 +13,6 @@ USE  IEEE.STD_LOGIC_UNSIGNED.all;
 -- Hexadecimal to 7 Segment Decoder for LED Display
 
 ENTITY dec_7seg IS
-	
 	PORT(
 		 hex_digit: IN	std_logic_VECTOR(3 DOWNTO 0);
 		 segment_a, segment_b, segment_c, segment_d, segment_e, 

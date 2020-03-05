@@ -1,0 +1,335 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Mar  5 15:13:34 2020
+# Process ID: 8128
+# Current directory: C:/Users/sjbc35/project_1/project_1.runs/synth_1
+# Command line: vivado.exe -log Adder4Bench.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Adder4Bench.tcl
+# Log file: C:/Users/sjbc35/project_1/project_1.runs/synth_1/Adder4Bench.vds
+# Journal file: C:/Users/sjbc35/project_1/project_1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Adder4Bench.tcl -notrace
+Command: synth_design -top Adder4Bench -part xc7a100tcsg324-2L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-2L
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 129488 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 810.285 ; gain = 178.086
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Adder4Bench' [//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/Adder4Bench.vhd:21]
+INFO: [Synth 8-3491] module 'Adder4' declared at '//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/fig2_04.vhd:13' bound to instance 'adder' of component 'Adder4' [//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/Adder4Bench.vhd:58]
+INFO: [Synth 8-638] synthesizing module 'Adder4' [//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/fig2_04.vhd:20]
+INFO: [Synth 8-3491] module 'FullAdder' declared at '//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/FullAdder.vhd:13' bound to instance 'FA0' of component 'FullAdder' [//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/fig2_04.vhd:30]
+INFO: [Synth 8-638] synthesizing module 'FullAdder' [//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/FullAdder.vhd:18]
+INFO: [Synth 8-256] done synthesizing module 'FullAdder' (1#1) [//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/FullAdder.vhd:18]
+INFO: [Synth 8-3491] module 'FullAdder' declared at '//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/FullAdder.vhd:13' bound to instance 'FA1' of component 'FullAdder' [//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/fig2_04.vhd:31]
+INFO: [Synth 8-3491] module 'FullAdder' declared at '//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/FullAdder.vhd:13' bound to instance 'FA2' of component 'FullAdder' [//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/fig2_04.vhd:32]
+INFO: [Synth 8-3491] module 'FullAdder' declared at '//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/FullAdder.vhd:13' bound to instance 'FA3' of component 'FullAdder' [//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/fig2_04.vhd:33]
+INFO: [Synth 8-256] done synthesizing module 'Adder4' (2#1) [//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/fig2_04.vhd:20]
+INFO: [Synth 8-3491] module 'LEDDisplay' declared at '//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd:13' bound to instance 'LEDDisplay0' of component 'LEDDisplay' [//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/Adder4Bench.vhd:59]
+INFO: [Synth 8-638] synthesizing module 'LEDDisplay' [//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd:21]
+INFO: [Synth 8-3491] module 'dec_7seg' declared at '//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/dec_7seg.vhd:15' bound to instance 'LED_Display1' of component 'dec_7seg' [//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd:88]
+INFO: [Synth 8-638] synthesizing module 'dec_7seg' [//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/dec_7seg.vhd:25]
+INFO: [Synth 8-226] default block is never used [//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/dec_7seg.vhd:33]
+INFO: [Synth 8-256] done synthesizing module 'dec_7seg' (3#1) [//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/dec_7seg.vhd:25]
+INFO: [Synth 8-3491] module 'dec_7seg' declared at '//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/dec_7seg.vhd:15' bound to instance 'LED_Display2' of component 'dec_7seg' [//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd:89]
+INFO: [Synth 8-256] done synthesizing module 'LEDDisplay' (4#1) [//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd:21]
+INFO: [Synth 8-3491] module 'AnodeControl' declared at '//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/AnodeControl.vhd:13' bound to instance 'ANDisplay' of component 'AnodeControl' [//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/Adder4Bench.vhd:60]
+INFO: [Synth 8-638] synthesizing module 'AnodeControl' [//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/AnodeControl.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'AnodeControl' (5#1) [//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/AnodeControl.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'Adder4Bench' (6#1) [//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/Adder4Bench.vhd:21]
+WARNING: [Synth 8-3917] design Adder4Bench has port segment_dp driven by constant 1
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 874.676 ; gain = 242.477
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 874.676 ; gain = 242.477
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 874.676 ; gain = 242.477
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/lab4.xdc]
+CRITICAL WARNING: [Designutils 20-1307] Command 'IO_L24N_T3_RS0_15' is not supported in the xdc constraint file. [//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/lab4.xdc:15]
+CRITICAL WARNING: [Designutils 20-1307] Command 'IO_L3N_T0_DQS_EMCCLK_14' is not supported in the xdc constraint file. [//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/lab4.xdc:17]
+CRITICAL WARNING: [Designutils 20-1307] Command 'IO_L6N_T0_D08_VREF_14' is not supported in the xdc constraint file. [//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/lab4.xdc:19]
+CRITICAL WARNING: [Designutils 20-1307] Command 'IO_L13N_T2_MRCC_14' is not supported in the xdc constraint file. [//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/lab4.xdc:21]
+CRITICAL WARNING: [Designutils 20-1307] Command 'IO_L12N_T1_MRCC_14' is not supported in the xdc constraint file. [//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/lab4.xdc:23]
+CRITICAL WARNING: [Designutils 20-1307] Command 'IO_L7N_T1_D10_14' is not supported in the xdc constraint file. [//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/lab4.xdc:25]
+CRITICAL WARNING: [Designutils 20-1307] Command 'IO_L17N_T2_A13_D29_14' is not supported in the xdc constraint file. [//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/lab4.xdc:27]
+CRITICAL WARNING: [Designutils 20-1307] Command 'IO_L5N_T0_D07_14' is not supported in the xdc constraint file. [//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/lab4.xdc:29]
+CRITICAL WARNING: [Designutils 20-1307] Command 'IO_L24N_T3_A00_D16_14' is not supported in the xdc constraint file. [//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/lab4.xdc:70]
+CRITICAL WARNING: [Designutils 20-1307] Command 'IO_25_14' is not supported in the xdc constraint file. [//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/lab4.xdc:72]
+CRITICAL WARNING: [Designutils 20-1307] Command 'IO_25_15' is not supported in the xdc constraint file. [//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/lab4.xdc:74]
+CRITICAL WARNING: [Designutils 20-1307] Command 'IO_L17P_T2_A26_15' is not supported in the xdc constraint file. [//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/lab4.xdc:76]
+CRITICAL WARNING: [Designutils 20-1307] Command 'IO_L13P_T2_MRCC_14' is not supported in the xdc constraint file. [//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/lab4.xdc:78]
+CRITICAL WARNING: [Designutils 20-1307] Command 'IO_L19P_T3_A10_D26_14' is not supported in the xdc constraint file. [//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/lab4.xdc:80]
+CRITICAL WARNING: [Designutils 20-1307] Command 'IO_L4P_T0_D04_14' is not supported in the xdc constraint file. [//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/lab4.xdc:82]
+CRITICAL WARNING: [Designutils 20-1307] Command 'IO_L23P_T3_FOE_B_15' is not supported in the xdc constraint file. [//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/lab4.xdc:88]
+CRITICAL WARNING: [Designutils 20-1307] Command 'IO_L23N_T3_FWE_B_15' is not supported in the xdc constraint file. [//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/lab4.xdc:90]
+CRITICAL WARNING: [Designutils 20-1307] Command 'IO_L24P_T3_A01_D17_14' is not supported in the xdc constraint file. [//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/lab4.xdc:92]
+CRITICAL WARNING: [Designutils 20-1307] Command 'IO_L19P_T3_A22_15' is not supported in the xdc constraint file. [//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/lab4.xdc:94]
+CRITICAL WARNING: [Designutils 20-1307] Command 'IO_L12P_T1_MRCC_14' is not supported in the xdc constraint file. [//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/lab4.xdc:112]
+Finished Parsing XDC File [//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/lab4.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/lab4.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Adder4Bench_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Adder4Bench_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 982.152 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 982.152 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 982.152 ; gain = 349.953
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-2L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 982.152 ; gain = 349.953
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 982.152 ; gain = 349.953
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 982.152 ; gain = 349.953
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
++---XORs : 
+	   3 Input      1 Bit         XORs := 4     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   5 Input      4 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 7     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module FullAdder 
+Detailed RTL Component Info : 
++---XORs : 
+	   3 Input      1 Bit         XORs := 1     
+Module LEDDisplay 
+Detailed RTL Component Info : 
++---Muxes : 
+	   5 Input      1 Bit        Muxes := 7     
+Module AnodeControl 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   5 Input      4 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3917] design Adder4Bench has port segment_dp driven by constant 1
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 982.152 ; gain = 349.953
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 982.152 ; gain = 349.953
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 982.152 ; gain = 349.953
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 982.152 ; gain = 349.953
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 993.559 ; gain = 361.359
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 993.559 ; gain = 361.359
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 993.559 ; gain = 361.359
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 993.559 ; gain = 361.359
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 993.559 ; gain = 361.359
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 993.559 ; gain = 361.359
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |BUFG |     1|
+|2     |LUT1 |     1|
+|3     |LUT2 |     3|
+|4     |LUT3 |     9|
+|5     |LUT4 |     1|
+|6     |LUT5 |     4|
+|7     |LUT6 |    10|
+|8     |FDRE |    12|
+|9     |IBUF |    10|
+|10    |OBUF |    12|
++------+-----+------+
+
+Report Instance Areas: 
++------+------------+-------------+------+
+|      |Instance    |Module       |Cells |
++------+------------+-------------+------+
+|1     |top         |             |    63|
+|2     |  ANDisplay |AnodeControl |    34|
++------+------------+-------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 993.559 ; gain = 361.359
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:19 . Memory (MB): peak = 993.559 ; gain = 253.883
+Synthesis Optimization Complete : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 993.559 ; gain = 361.359
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1010.852 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+32 Infos, 2 Warnings, 20 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:25 ; elapsed = 00:00:28 . Memory (MB): peak = 1010.852 ; gain = 656.297
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1010.852 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/sjbc35/project_1/project_1.runs/synth_1/Adder4Bench.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Adder4Bench_utilization_synth.rpt -pb Adder4Bench_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Mar  5 15:14:06 2020...
