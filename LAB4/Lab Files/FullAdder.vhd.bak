@@ -17,6 +17,6 @@ end FullAdder;
 
 architecture Equations of FullAdder is
 begin
-	Sum  <= X xor Y xor Cin after 10 ns;	--complete the expressions for Sum and Cout
-	Cout <= (X and Y) or (X and Cin) or (Y and Cin) after 10 ns;  
+	Sum  <= ___________________		--complete the expressions for Sum and Cout
+	Cout <= ________________________  
 end Equations;

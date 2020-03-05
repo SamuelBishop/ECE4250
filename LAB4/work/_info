@@ -1,0 +1,269 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/modelsim_dlx64_2019.1/examples
+Eadder4
+Z0 w1583438348
+Z1 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z5 d//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4
+Z6 8//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/fig2_04.vhd
+Z7 F//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/fig2_04.vhd
+l0
+L13
+VMGn7K84E?1S1_C6Ii0SGc1
+!s100 Jn7ldL>e:<Aj7IU=DOlXW2
+Z8 OP;C;2019.1;69
+32
+Z9 !s110 1583438501
+!i10b 1
+Z10 !s108 1583438500.000000
+Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/fig2_04.vhd|
+Z12 !s107 //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/fig2_04.vhd|
+!i113 1
+Z13 o-work work -2002 -explicit
+Z14 tExplicit 1 CvgOpt 0
+Astructure
+R1
+R2
+R3
+R4
+DEx4 work 6 adder4 0 22 MGn7K84E?1S1_C6Ii0SGc1
+l29
+L20
+VKHNF?:Tb53V5i<>D?;jDk1
+!s100 14H]l>m7EBzI8R:Sob@Zf1
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Eadder4bench
+Z15 w1583435899
+R1
+R2
+R3
+R4
+R5
+Z16 8//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/Adder4Bench.vhd
+Z17 F//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/Adder4Bench.vhd
+l0
+L13
+V>;nQ[D1fkW7doF7iNe9JU1
+!s100 jY]IP8mk<gJ3FNeK]g?`g3
+R8
+32
+Z18 !s110 1583438499
+!i10b 1
+Z19 !s108 1583438498.000000
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/Adder4Bench.vhd|
+Z21 !s107 //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/Adder4Bench.vhd|
+!i113 1
+R13
+R14
+Abehave
+R1
+R2
+R3
+R4
+DEx4 work 11 adder4bench 0 22 >;nQ[D1fkW7doF7iNe9JU1
+l49
+L21
+Vzl3?83;IdzGcj>JH@YV`Y0
+!s100 aMb_23zMH4GLZjD7a500d3
+R8
+32
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R13
+R14
+Eanodecontrol
+Z22 w1583436262
+R1
+R2
+R3
+R4
+R5
+Z23 8//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/AnodeControl.vhd
+Z24 F//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/AnodeControl.vhd
+l0
+L13
+V3W_GBVz?U:ZOWM[=GEgTh1
+!s100 3U1k>0@c_`dd0SeNGg6VG3
+R8
+32
+Z25 !s110 1583438500
+!i10b 1
+Z26 !s108 1583438499.000000
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/AnodeControl.vhd|
+Z28 !s107 //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/AnodeControl.vhd|
+!i113 1
+R13
+R14
+Abehav
+R1
+R2
+R3
+R4
+DEx4 work 12 anodecontrol 0 22 3W_GBVz?U:ZOWM[=GEgTh1
+l24
+L19
+VVZQ8iY[hScXUP5e=8C<bW1
+!s100 ^FN@Rz]OX_G6YI0lFPgF<2
+R8
+32
+R25
+!i10b 1
+R26
+R27
+R28
+!i113 1
+R13
+R14
+Edec_7seg
+Z29 w1583437164
+R1
+R2
+R3
+R4
+R5
+Z30 8//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/dec_7seg.vhd
+Z31 F//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/dec_7seg.vhd
+l0
+L15
+V5;KMIfJDF1L>3j0Hg^H]M3
+!s100 PFIh^iYaVWP0Hb==Pm<I12
+R8
+32
+R25
+!i10b 1
+R10
+Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/dec_7seg.vhd|
+Z33 !s107 //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/dec_7seg.vhd|
+!i113 1
+R13
+R14
+Aa
+R1
+R2
+R3
+R4
+DEx4 work 8 dec_7seg 0 22 5;KMIfJDF1L>3j0Hg^H]M3
+l28
+L25
+VMjGH[4b^FXL_MnBcBC0eb0
+!s100 7V1`NC3>BGR1Wb2>fM7`f2
+R8
+32
+R25
+!i10b 1
+R10
+R32
+R33
+!i113 1
+R13
+R14
+Efulladder
+Z34 w1583438275
+R1
+R2
+R3
+R4
+R5
+Z35 8//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/FullAdder.vhd
+Z36 F//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/FullAdder.vhd
+l0
+L13
+Vo?F8i0K5MY^UMWbeQK_5H0
+!s100 PG]khI;dV8M^=KWSeQlRf2
+R8
+32
+Z37 !s110 1583438502
+!i10b 1
+Z38 !s108 1583438501.000000
+Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/FullAdder.vhd|
+Z40 !s107 //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/FullAdder.vhd|
+!i113 1
+R13
+R14
+Aequations
+R1
+R2
+R3
+R4
+DEx4 work 9 fulladder 0 22 o?F8i0K5MY^UMWbeQK_5H0
+l19
+L18
+V@Zn`IFFZFU^`EDzlfb8NS1
+!s100 A3Ze1>HjA?<95DP;ZFSnc2
+R8
+32
+R37
+!i10b 1
+R38
+R39
+R40
+!i113 1
+R13
+R14
+Eleddisplay
+Z41 w1583438479
+R1
+R2
+R3
+R4
+R5
+Z42 8//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd
+Z43 F//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd
+l0
+L13
+VzOiKaoDNCNEZcYZWd0H691
+!s100 CO7=0Om1YP?oF23hLX3Cg3
+R8
+32
+R37
+!i10b 1
+Z44 !s108 1583438502.000000
+Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd|
+Z46 !s107 //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd|
+!i113 1
+R13
+R14
+Abehav
+R1
+R2
+R3
+R4
+Z47 DEx4 work 10 leddisplay 0 22 zOiKaoDNCNEZcYZWd0H691
+l34
+L21
+Z48 V`@V=eN7D>IiPhz8=<ZIg53
+Z49 !s100 S1:ck<bYjNoggQ:ZG[?_>3
+R8
+32
+R37
+!i10b 1
+R44
+R45
+R46
+!i113 1
+R13
+R14
