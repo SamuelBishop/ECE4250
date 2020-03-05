@@ -18,7 +18,17 @@ Model Technology ModelSim DE-64 vcom 2019.1 Compiler 2019.01 Jan  2 2019
 -- Compiling entity Adder4Bench
 -- Compiling architecture behave of Adder4Bench
 
-} {} {}} {//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd} {0 {vcom -work work -2002 -explicit -stats=none {//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd}
+} {} {}} {//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/dec_7seg.vhd} {1 {vcom -work work -2002 -explicit -stats=none {//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/dec_7seg.vhd}
+Model Technology ModelSim DE-64 vcom 2019.1 Compiler 2019.01 Jan  2 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity dec_7seg
+-- Compiling architecture a of dec_7seg
+
+} {} {}} {//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd} {1 {vcom -work work -2002 -explicit -stats=none {//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd}
 Model Technology ModelSim DE-64 vcom 2019.1 Compiler 2019.01 Jan  2 2019
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -26,76 +36,9 @@ Model Technology ModelSim DE-64 vcom 2019.1 Compiler 2019.01 Jan  2 2019
 -- Loading package std_logic_arith
 -- Loading package STD_LOGIC_UNSIGNED
 -- Compiling entity LEDDisplay
-** Error: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd(14): near "_": syntax error
-** Error: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd(33): Signal assignments not allowed in entity statement part.
-** Error: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd(33): (vcom-1136) Unknown identifier "Cout".
-** Error: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd(33): Type error resolving infix expression "&" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
-** Error: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd(35): (vcom-1136) Unknown identifier "counter".
-** Error: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd(35): Expression is not a signal.
-** Error: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd(37): (vcom-1136) Unknown identifier "counter".
-** Error: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd(40): Illegal target for signal assignment.
-** Error: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd(40): (vcom-1136) Unknown identifier "segment_a".
-** Error: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd(41): Illegal target for signal assignment.
-** Error: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd(41): (vcom-1136) Unknown identifier "segment_b".
-** Error: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd(42): Illegal target for signal assignment.
-** Error: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd(42): (vcom-1136) Unknown identifier "segment_c".
-** Error: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd(43): Illegal target for signal assignment.
-** Error: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd(43): (vcom-1136) Unknown identifier "segment_d".
-** Error: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd(44): Illegal target for signal assignment.
-** Error: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd(44): (vcom-1136) Unknown identifier "segment_e".
-** Error: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd(45): Illegal target for signal assignment.
-** Error: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd(45): (vcom-1136) Unknown identifier "segment_f".
-** Error: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd(46): Illegal target for signal assignment.
-** Error: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd(46): (vcom-1136) Unknown identifier "segment_g".
-** Error: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd(49): near "_": syntax error
-** Error: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd(59): Illegal target for signal assignment.
-** Error: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd(59): (vcom-1136) Unknown identifier "segment_b".
-** Error: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd(60): Illegal target for signal assignment.
-** Error: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd(60): (vcom-1136) Unknown identifier "segment_c".
-** Error: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd(61): Illegal target for signal assignment.
-** Error: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd(61): (vcom-1136) Unknown identifier "segment_d".
-** Error: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd(62): Illegal target for signal assignment.
-** Error: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd(62): (vcom-1136) Unknown identifier "segment_e".
-** Error: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd(63): Illegal target for signal assignment.
-** Error: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd(63): (vcom-1136) Unknown identifier "segment_f".
-** Error: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd(64): Illegal target for signal assignment.
-** Error: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd(64): (vcom-1136) Unknown identifier "segment_g".
-** Error: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd(67): Illegal target for signal assignment.
-** Error: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd(67): (vcom-1136) Unknown identifier "segment_a".
-** Error: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd(68): Illegal target for signal assignment.
-** Error: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd(68): (vcom-1136) Unknown identifier "segment_b".
-** Error: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd(69): Illegal target for signal assignment.
-** Error: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd(69): (vcom-1136) Unknown identifier "segment_c".
-** Error: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd(70): Illegal target for signal assignment.
-** Error: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd(70): (vcom-1136) Unknown identifier "segment_d".
-** Error: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd(71): Illegal target for signal assignment.
-** Error: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd(71): (vcom-1136) Unknown identifier "segment_e".
-** Error: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd(72): Illegal target for signal assignment.
-** Error: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd(72): (vcom-1136) Unknown identifier "segment_f".
-** Error: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd(73): Illegal target for signal assignment.
-** Error: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd(73): (vcom-1136) Unknown identifier "segment_g".
-** Error: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd(75): Illegal target for signal assignment.
-** Error: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd(75): (vcom-1136) Unknown identifier "segment_a".
-** Error: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd(76): Illegal target for signal assignment.
-** Error: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd(76): (vcom-1136) Unknown identifier "segment_b".
-** Error: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd(77): Illegal target for signal assignment.
-** Error: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd(77): (vcom-1136) Unknown identifier "segment_c".
-** Error: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd(78): Illegal target for signal assignment.
-** Error: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd(78): (vcom-1136) Unknown identifier "segment_d".
-** Error: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd(79): Illegal target for signal assignment.
-** Error: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd(79): (vcom-1136) Unknown identifier "segment_e".
-** Error: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd(80): Illegal target for signal assignment.
-** Error: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd(80): (vcom-1136) Unknown identifier "segment_f".
-** Error: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd(81): Illegal target for signal assignment.
-** Error: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd(81): (vcom-1136) Unknown identifier "segment_g".
-** Error: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd(85): Component instantiation statements are not allowed in entity statement part.
-** Error (suppressible): //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd(85): (vcom-1141) Identifier "dec_7seg" does not identify a component declaration.
-** Error: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd(86): Component instantiation statements are not allowed in entity statement part.
-** Error (suppressible): //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd(86): (vcom-1141) Identifier "dec_7seg" does not identify a component declaration.
-** Error: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd(88): Labels do not match: 'LEDDisplay' and 'Behav'.
-** Note: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd(88): VHDL Compiler exiting
+-- Compiling architecture Behav of LEDDisplay
 
-} {9.0 72.0 73.0 74.0 75.0 76.0} {}} {//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/FullAdder.vhd} {0 {vcom -work work -2002 -explicit -stats=none {//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/FullAdder.vhd}
+} {} {}} {//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/FullAdder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/FullAdder.vhd}
 Model Technology ModelSim DE-64 vcom 2019.1 Compiler 2019.01 Jan  2 2019
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -104,9 +47,8 @@ Model Technology ModelSim DE-64 vcom 2019.1 Compiler 2019.01 Jan  2 2019
 -- Loading package STD_LOGIC_UNSIGNED
 -- Compiling entity FullAdder
 -- Compiling architecture Equations of FullAdder
-** Error: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/FullAdder.vhd(20): near "_": syntax error
 
-} {10.0 11.0} {}} {//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/fig2_04.vhd} {0 {vcom -work work -2002 -explicit -stats=none {//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/fig2_04.vhd}
+} {} {}} {//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/fig2_04.vhd} {1 {vcom -work work -2002 -explicit -stats=none {//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/fig2_04.vhd}
 Model Technology ModelSim DE-64 vcom 2019.1 Compiler 2019.01 Jan  2 2019
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -115,11 +57,5 @@ Model Technology ModelSim DE-64 vcom 2019.1 Compiler 2019.01 Jan  2 2019
 -- Loading package STD_LOGIC_UNSIGNED
 -- Compiling entity Adder4
 -- Compiling architecture Structure of Adder4
-** Error: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/fig2_04.vhd(22): near "_": (vcom-1576) expecting END.
-** Error: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/fig2_04.vhd(29): (vcom-1027) Number of positional association elements (5) exceeds number of formals (0).
-** Error: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/fig2_04.vhd(30): (vcom-1027) Number of positional association elements (5) exceeds number of formals (0).
-** Error: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/fig2_04.vhd(31): (vcom-1027) Number of positional association elements (5) exceeds number of formals (0).
-** Error: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/fig2_04.vhd(32): (vcom-1027) Number of positional association elements (5) exceeds number of formals (0).
-** Note: //col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/fig2_04.vhd(33): VHDL Compiler exiting
 
-} {10.0 15.0} {}}
+} {} {}}
