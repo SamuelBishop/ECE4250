@@ -1,4 +1,4 @@
-set_property SRC_FILE_INFO {cfile:{//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/lab4.xdc} rfile:{//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/lab4.xdc} id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:{C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB4/Lab Files/lab4.xdc} rfile:{../../../../Lab Files/lab4.xdc} id:1} [current_design]
 set_property src_info {type:XDC file:1 line:7 export:INPUT save:INPUT read:READ} [current_design]
 set_property -dict { PACKAGE_PIN E3    IOSTANDARD LVCMOS33 } [get_ports { clk }];
 set_property src_info {type:XDC file:1 line:14 export:INPUT save:INPUT read:READ} [current_design]

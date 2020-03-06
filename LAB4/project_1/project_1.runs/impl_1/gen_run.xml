@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-2L" LaunchTime="1583439514">
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-2L" LaunchTime="1583455928">
   <File Type="BITSTR-BMM" Name="Adder4Bench_bd.bmm"/>
   <File Type="OPT-METHODOLOGY-DRC" Name="Adder4Bench_methodology_drc_opted.rpt"/>
   <File Type="INIT-TIMING" Name="Adder4Bench_timing_summary_init.rpt"/>
@@ -71,37 +71,37 @@
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
-    <File Path="//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/AnodeControl.vhd">
+    <File Path="$PPRDIR/../Lab Files/AnodeControl.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/FullAdder.vhd">
+    <File Path="$PPRDIR/../Lab Files/FullAdder.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/LEDDisplay.vhd">
+    <File Path="$PPRDIR/../Lab Files/LEDDisplay.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/dec_7seg.vhd">
+    <File Path="$PPRDIR/../Lab Files/dec_7seg.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/fig2_04.vhd">
+    <File Path="$PPRDIR/../Lab Files/fig2_04.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/Adder4Bench.vhd">
+    <File Path="$PPRDIR/../Lab Files/Adder4Bench.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -115,7 +115,7 @@
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
     <Filter Type="Constrs"/>
-    <File Path="//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/lab4.xdc">
+    <File Path="$PPRDIR/../Lab Files/lab4.xdc">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -132,9 +132,7 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019">
-      <Desc>Default settings for Implementation.</Desc>
-    </StratHandle>
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019"/>
     <Step Id="init_design"/>
     <Step Id="opt_design"/>
     <Step Id="power_opt_design"/>

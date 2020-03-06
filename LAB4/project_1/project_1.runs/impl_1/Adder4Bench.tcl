@@ -65,17 +65,16 @@ start_step init_design
 set ACTIVE_STEP init_design
 set rc [catch {
   create_msg_db init_design.pb
-  set_param chipscope.maxJobs 2
-  set_param xicom.use_bs_reader 1
+  set_param chipscope.maxJobs 1
   create_project -in_memory -part xc7a100tcsg324-2L
   set_property design_mode GateLvl [current_fileset]
   set_param project.singleFileAddWarning.threshold 0
-  set_property webtalk.parent_dir C:/Users/sjbc35/project_1/project_1.cache/wt [current_project]
-  set_property parent.project_path C:/Users/sjbc35/project_1/project_1.xpr [current_project]
-  set_property ip_output_repo C:/Users/sjbc35/project_1/project_1.cache/ip [current_project]
+  set_property webtalk.parent_dir {C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB4/project_1/project_1.cache/wt} [current_project]
+  set_property parent.project_path {C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB4/project_1/project_1.xpr} [current_project]
+  set_property ip_output_repo {{C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB4/project_1/project_1.cache/ip}} [current_project]
   set_property ip_cache_permissions {read write} [current_project]
-  add_files -quiet C:/Users/sjbc35/project_1/project_1.runs/synth_1/Adder4Bench.dcp
-  read_xdc {{//col.missouri.edu/files/ENGRLABSFS/Redirected_Folders/sjbc35/Desktop/ECE4250/LAB4/Lab Files/lab4.xdc}}
+  add_files -quiet {{C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB4/project_1/project_1.runs/synth_1/Adder4Bench.dcp}}
+  read_xdc {{C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB4/Lab Files/lab4.xdc}}
   link_design -top Adder4Bench -part xc7a100tcsg324-2L
   close_msg_db -file init_design.pb
 } RESULT]
