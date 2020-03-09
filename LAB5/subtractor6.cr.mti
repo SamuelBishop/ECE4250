@@ -1,0 +1,25 @@
+{C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB5/subtractor6_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Sam Bishop\Desktop\git\ECE4250\LAB5\subtractor6_tb.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity subtractor6_tb
+-- Compiling architecture test of subtractor6_tb
+
+} {} {}} {C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB5/subtractor6.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Sam Bishop\Desktop\git\ECE4250\LAB5\subtractor6.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity subtractor6
+-- Compiling architecture Structure of subtractor6
+
+} {} {}} {C:/Users/Sam Bishop/Desktop/git/ECE4250/LAB5/full_subtractor.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Sam Bishop\Desktop\git\ECE4250\LAB5\full_subtractor.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity full_subtractor
+-- Compiling architecture behave of full_subtractor
+
+} {} {}}
