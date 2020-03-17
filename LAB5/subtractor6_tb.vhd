@@ -12,41 +12,69 @@ architecture test of subtractor6_tb is
 			Bo: out std_logic); -- Output
 	end component;
 
-	signal Bi, Bo: std_logic;
-	signal A, B, D: std_logic_vector(5 downto 0);
+-- Declaring test bench cases for the 6 bit subtractor
+constant N: integer := 5; -- Test cases
+type bit_vector_array is array(1 to N) of std_logic_vector(5 downto 0);
+type bit_array is array(1 to N) of std_logic;
+
+constant a_value_array: bit_vector_array := ("000000", "000101", "001010", "001111", "011100");
+constant b_value_array: bit_vector_array := ("000000", "000001", "001000", "010000", "001111");
+constant bin_value_array: bit_array := ('0', '0', '1', '0', '1');
+constant d_value_array: bit_vector_array := ("000000", "000100", "000001", "111111", "001100");
+constant bout_value_array: bit_array := ('0', '0', '0', '1', '0');
+
+signal Bin_val, Bo_val: std_logic;
+signal A_val, B_val, D_val: std_logic_vector(5 downto 0);
 
 begin
-	fs: subtractor6 port map(A => A, B => B, Bi => Bi, D => D, Bo => Bo);
+	process begin
+		for i in 1 to N loop
+			A_val <= a_value_array(i);
+			B_val <= b_value_array(i);
+			Bin_val <= bin_value_array(i);
+			wait for 100 ns;
+			report "Test Case: " & integer'image(i); 
+			assert (D_val = d_value_array(i) and Bo_val = bout_value_array(i))
+				report "Wrong answer when subtracting Iteration #" & integer'image(i) severity error;
+		end loop;
+		report "Test Finished";
+	end process;
+	fs: subtractor6 port map(A_val, B_val, Bin_val, D_val, Bo_val);
+end test;
+
+-- NOTE: This code is the non-iterative way to implement this test bench
+--begin
+	--fs: subtractor6 port map(A => A, B => B, Bi => Bi, D => D, Bo => Bo);
 	
 	-- Could check every case with a VHDL loop
-	process begin
-		A <= "XXXXXX";
-		B <= "XXXXXX";
-		Bi <= 'X';
-		wait for 10 ns;
+	--process begin
+	--	A <= "XXXXXX";
+	--	B <= "XXXXXX";
+	--	Bi <= 'X';
+	--	wait for 10 ns;
 
-		A <= "001000";
-		B <= "000100";
-		Bi <= '0';
-		wait for 10 ns;
+		--A <= "001000";
+		--B <= "000100";
+		--Bi <= '0';
+		--wait for 10 ns;
 
-		A <= "110000";
-		B <= "000001";
-		Bi <= '1';
-		wait for 10 ns;
+		--A <= "110000";
+		--B <= "000001";
+		--Bi <= '1';
+		--wait for 10 ns;
 
-		A <= "111111";
-		B <= "011111";
-		Bi <= '0';
-		wait for 10 ns;
+		--A <= "111111";
+		--B <= "011111";
+		--Bi <= '0';
+		--wait for 10 ns;
 
-		A <= "101010";
-		B <= "010101";
-		Bi <= '1';
-		wait for 10 ns;
+		--A <= "101010";
+		--B <= "010101";
+		--Bi <= '1';
+		--wait for 10 ns;
 	
-		assert false report "Reached and of test";
-		wait;
+		--assert false report "Reached and of test";
+		--wait;
 
-	end process; 
-end test;
+--	end process; 
+-- end test;

@@ -9,23 +9,23 @@ z2
 cModel Technology
 dC:/Modeltech_pe_edu_10.4a/examples
 Efull_subtractor
-Z0 w1583788401
+Z0 w1584412841
 Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
-Z3 dC:/Users/Sam Bishop/Desktop/git/ECE4250/LAB5
-Z4 8C:\Users\Sam Bishop\Desktop\git\ECE4250\LAB5\full_subtractor.vhd
-Z5 FC:\Users\Sam Bishop\Desktop\git\ECE4250\LAB5\full_subtractor.vhd
+Z3 dC:/Users/Sam/Desktop/git/ECE4250/LAB5
+Z4 8C:/Users/Sam/Desktop/git/ECE4250/LAB5/full_subtractor.vhd
+Z5 FC:/Users/Sam/Desktop/git/ECE4250/LAB5/full_subtractor.vhd
 l0
 L4
 V8kjKNH0VB>LPEi;kkBi212
 !s100 3SFDaS03BYRolachE[HXa1
 Z6 OP;C;10.4a;61
 32
-Z7 !s110 1583790263
+Z7 !s110 1584415519
 !i10b 1
-Z8 !s108 1583790263.000000
-Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Sam Bishop\Desktop\git\ECE4250\LAB5\full_subtractor.vhd|
-Z10 !s107 C:\Users\Sam Bishop\Desktop\git\ECE4250\LAB5\full_subtractor.vhd|
+Z8 !s108 1584415519.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Sam/Desktop/git/ECE4250/LAB5/full_subtractor.vhd|
+Z10 !s107 C:/Users/Sam/Desktop/git/ECE4250/LAB5/full_subtractor.vhd|
 !i113 1
 Z11 o-work work -2002 -explicit -O0
 Z12 tExplicit 1
@@ -35,8 +35,8 @@ R2
 DEx4 work 15 full_subtractor 0 22 8kjKNH0VB>LPEi;kkBi212
 l10
 L9
-V0=IXFDNzBeMEg_Ln5[GbC2
-!s100 KCaMNGRIAB_1BS9CeemEZ3
+V`V`L>MUQWZQeTP<OMAI`40
+!s100 ;3[cLjg7n49KQ>Um3b1[G2
 R6
 32
 R7
@@ -48,12 +48,12 @@ R10
 R11
 R12
 Esubtractor6
-Z13 w1583788772
+Z13 w1584395907
 R1
 R2
 R3
-Z14 8C:\Users\Sam Bishop\Desktop\git\ECE4250\LAB5\subtractor6.vhd
-Z15 FC:\Users\Sam Bishop\Desktop\git\ECE4250\LAB5\subtractor6.vhd
+Z14 8C:/Users/Sam/Desktop/git/ECE4250/LAB5/subtractor6.vhd
+Z15 FC:/Users/Sam/Desktop/git/ECE4250/LAB5/subtractor6.vhd
 l0
 L4
 VKa5o0aIUT`8?PRCJ;VWhe0
@@ -63,8 +63,8 @@ R6
 R7
 !i10b 1
 R8
-Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Sam Bishop\Desktop\git\ECE4250\LAB5\subtractor6.vhd|
-Z17 !s107 C:\Users\Sam Bishop\Desktop\git\ECE4250\LAB5\subtractor6.vhd|
+Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Sam/Desktop/git/ECE4250/LAB5/subtractor6.vhd|
+Z17 !s107 C:/Users/Sam/Desktop/git/ECE4250/LAB5/subtractor6.vhd|
 !i113 1
 R11
 R12
@@ -87,12 +87,12 @@ R17
 R11
 R12
 Esubtractor6_tb
-Z21 w1583790259
+Z21 w1584415516
 R1
 R2
 R3
-Z22 8C:\Users\Sam Bishop\Desktop\git\ECE4250\LAB5\subtractor6_tb.vhd
-Z23 FC:\Users\Sam Bishop\Desktop\git\ECE4250\LAB5\subtractor6_tb.vhd
+Z22 8C:/Users/Sam/Desktop/git/ECE4250/LAB5/subtractor6_tb.vhd
+Z23 FC:/Users/Sam/Desktop/git/ECE4250/LAB5/subtractor6_tb.vhd
 l0
 L4
 VmbR9lW]go@X>KzVZaGlW]1
@@ -101,9 +101,9 @@ R6
 32
 R7
 !i10b 1
-Z24 !s108 1583790262.000000
-Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Sam Bishop\Desktop\git\ECE4250\LAB5\subtractor6_tb.vhd|
-Z26 !s107 C:\Users\Sam Bishop\Desktop\git\ECE4250\LAB5\subtractor6_tb.vhd|
+R8
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Sam/Desktop/git/ECE4250/LAB5/subtractor6_tb.vhd|
+Z25 !s107 C:/Users/Sam/Desktop/git/ECE4250/LAB5/subtractor6_tb.vhd|
 !i113 1
 R11
 R12
@@ -111,17 +111,17 @@ Atest
 R1
 R2
 DEx4 work 14 subtractor6_tb 0 22 mbR9lW]go@X>KzVZaGlW]1
-l18
+l29
 L7
-V7X^I0>`@G5_H9c0keQzbJ1
-!s100 Shgh_AmXSPm<ogTLkhjJD1
+V_95ki=oFe9D64f:bQlk890
+!s100 ZWN5YC?SXdhMk:3R0EzGV1
 R6
 32
 R7
 !i10b 1
+R8
 R24
 R25
-R26
 !i113 1
 R11
 R12

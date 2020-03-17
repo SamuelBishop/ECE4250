@@ -8,6 +8,6 @@ end full_subtractor;
 
 Architecture behave of full_subtractor is
 begin
-	Bout <= ((not X) and Bin) or ((not X) and Y) or (Y and Bin);
-	D <= X xor Y xor Bin;
+	Bout <= ((not X) and Bin) or ((not X) and Y) or (Y and Bin) after 10 ns;
+	D <= X xor Y xor Bin after 10 ns;
 end behave;
