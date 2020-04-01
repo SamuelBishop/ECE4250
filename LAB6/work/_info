@@ -9,34 +9,34 @@ z2
 cModel Technology
 dC:/model_sim_edu/examples
 Ecascaded_bcd_counter
-Z0 w1584908063
+Z0 w1584911102
 Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z2 DPx4 ieee 11 numeric_bit 0 22 d<O?S;AIQfOzoHU3FDK]23
-Z3 dC:/Users/Sam/Desktop/git/ECE4250/LAB6
-Z4 8C:/Users/Sam/Desktop/git/ECE4250/LAB6/cascaded_bcd_counter.vhd
-Z5 FC:/Users/Sam/Desktop/git/ECE4250/LAB6/cascaded_bcd_counter.vhd
+Z3 dC:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/LAB6
+Z4 8C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/LAB6/cascaded_bcd_counter.vhd
+Z5 FC:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/LAB6/cascaded_bcd_counter.vhd
 l0
 L4
 VO3d;L0mRzWmOfKQjLEMQE2
 !s100 X9md29ciZPM2CDO08<ea<3
 Z6 OP;C;10.4a;61
 32
-Z7 !s110 1584908066
+Z7 !s110 1585784398
 !i10b 1
-Z8 !s108 1584908066.000000
-Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Sam/Desktop/git/ECE4250/LAB6/cascaded_bcd_counter.vhd|
-Z10 !s107 C:/Users/Sam/Desktop/git/ECE4250/LAB6/cascaded_bcd_counter.vhd|
+Z8 !s108 1585784398.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/LAB6/cascaded_bcd_counter.vhd|
+Z10 !s107 C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/LAB6/cascaded_bcd_counter.vhd|
 !i113 1
 Z11 o-work work -2002 -explicit -O0
 Z12 tExplicit 1
 Astructure
 R1
 R2
-DEx4 work 20 cascaded_bcd_counter 0 22 O3d;L0mRzWmOfKQjLEMQE2
+Z13 DEx4 work 20 cascaded_bcd_counter 0 22 O3d;L0mRzWmOfKQjLEMQE2
 l27
 L13
-Z13 Vl_:HXofZS4ml[]ezGjC072
-Z14 !s100 3necY>NonIJ2B74^;W:VL2
+Z14 Vl_:HXofZS4ml[]ezGjC072
+Z15 !s100 3necY>NonIJ2B74^;W:VL2
 R6
 32
 R7
@@ -48,12 +48,12 @@ R10
 R11
 R12
 Efully_synchronous_counter
-Z15 w1584907546
+R0
 R1
 R2
 R3
-Z16 8C:/Users/Sam/Desktop/git/ECE4250/LAB6/fully_synchronous_counter.vhd
-Z17 FC:/Users/Sam/Desktop/git/ECE4250/LAB6/fully_synchronous_counter.vhd
+Z16 8C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/LAB6/fully_synchronous_counter.vhd
+Z17 FC:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/LAB6/fully_synchronous_counter.vhd
 l0
 L4
 V1`flIZ>NnNW89DJ53Ok2T2
@@ -63,8 +63,8 @@ R6
 R7
 !i10b 1
 R8
-Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Sam/Desktop/git/ECE4250/LAB6/fully_synchronous_counter.vhd|
-Z19 !s107 C:/Users/Sam/Desktop/git/ECE4250/LAB6/fully_synchronous_counter.vhd|
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/LAB6/fully_synchronous_counter.vhd|
+Z19 !s107 C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/LAB6/fully_synchronous_counter.vhd|
 !i113 1
 R11
 R12
