@@ -1,0 +1,11 @@
+#inputs
+NET "in1" LOC = "1";
+NET "in2" LOC = "1";
+NET "in3" LOC = "1";
+NET "in4" LOC = "1";
+
+#outputs
+NET "out1" LOC = "1";
+NET "out2" LOC = "1";
+NET "out3" LOC = "1";
+NET "out4" LOC = "1";

@@ -1,0 +1,92 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Modeltech_pe_edu_10.4a/examples
+Egenclock
+Z0 w1586297177
+Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 dC:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/LAB7
+Z5 8C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/LAB7/GenClock.vhd
+Z6 FC:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/LAB7/GenClock.vhd
+l0
+L5
+VG[;F8O2XhR6M[iN@Lb^QX0
+!s100 iV9m0nQ=TfHeS9NE06h7F2
+Z7 OP;C;10.4a;61
+32
+Z8 !s110 1586298015
+!i10b 1
+Z9 !s108 1586298015.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/LAB7/GenClock.vhd|
+Z11 !s107 C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/LAB7/GenClock.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit -O0
+Z13 tExplicit 1
+Abehavior
+R1
+R2
+R3
+DEx4 work 8 genclock 0 22 G[;F8O2XhR6M[iN@Lb^QX0
+l16
+L14
+VLb4SA>]_:4Ia[<hIjj2A:2
+!s100 ih]S3gEH<LeTFLl<bomd12
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Etestclock
+Z14 w1586298403
+R1
+R2
+R3
+R4
+Z15 8C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/LAB7/TestClock.vhd
+Z16 FC:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/LAB7/TestClock.vhd
+l0
+L5
+VomJGazWem7DaoBoQ6_Bi?3
+!s100 Y9F^bU5gLRZ[na8@`W]8z2
+R7
+32
+Z17 !s110 1586298412
+!i10b 1
+Z18 !s108 1586298412.000000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/LAB7/TestClock.vhd|
+Z20 !s107 C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/LAB7/TestClock.vhd|
+!i113 1
+R12
+R13
+Aexecute
+R1
+R2
+R3
+DEx4 work 9 testclock 0 22 omJGazWem7DaoBoQ6_Bi?3
+l22
+L12
+Vb^4WjgUe8Qe`RGe>Z3IV01
+!s100 7JHP`2@EkKRj@7P:h8]U@2
+R7
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R12
+R13

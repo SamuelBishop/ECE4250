@@ -1,0 +1,19 @@
+C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/LAB7/TestClock.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/LAB7/TestClock.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity TestClock
+-- Compiling architecture Execute of TestClock
+
+} {} {}} C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/LAB7/GenClock.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/LAB7/GenClock.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity GenClock
+-- Compiling architecture Behavior of GenClock
+
+} {} {}}
