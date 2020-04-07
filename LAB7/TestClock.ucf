@@ -1,0 +1,16 @@
+# Xilinx UCF is a constraints file format. It is used to appply constraints on the design
+# to the Xilinx tools (FPGA board), including pin locations, timing and area. In this lab
+# students are using the UCF file in order to map VHDL inputs/outputs to pin locations on
+# the FPGA prototyping board.
+
+#inputs
+NET "in1" LOC = "INSERT HERE";
+NET "in2" LOC = "INSERT HERE";
+NET "in3" LOC = "INSERT HERE";
+NET "in4" LOC = "INSERT HERE";
+
+#outputs
+NET "out1" LOC = "INSERT HERE";
+NET "out2" LOC = "INSERT HERE";
+NET "out3" LOC = "INSERT HERE";
+NET "out4" LOC = "INSERT HERE";
