@@ -1,0 +1,2 @@
+Notes on LAB7 ECE4250:
+- Generic is a component in our code. Represented by time period right here.
