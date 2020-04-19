@@ -5,7 +5,7 @@ use IEEE.std_logic_unsigned.all;
 
 entity twosComp is
 	generic(n : integer := 8);
-	port (
+	port(
 		A : in std_logic_vector(n+(n-1)*2 downto 0);
 		Z : out std_logic_vector(n+(n-1)*2 downto 0)
 	);
@@ -17,7 +17,7 @@ architecture behave of twosComp is
 	begin
 	process(A, atTwoCompl)
 		begin
-			AtwoCompl <= not(A) + '1';
+			atTwoCompl <= not(A) + '1';
 			Z <= atTwoCompl;
 	end process;
 
