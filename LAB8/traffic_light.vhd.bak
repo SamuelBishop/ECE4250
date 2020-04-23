@@ -12,13 +12,8 @@ Architecture Structure of trafficLight is
 
 signal State, NextState : integer range 0 to 13;
 signal clk1 : std_logic := '0';
-signal clk2 : std_logic := '0';
-signal clk3 : std_logic := '0';
 signal clk4 : std_logic := '0';
-ClockQuarters: GenClock generic map (1) port map (clk, clk1); -- .25s
-ClockHalfs: GenClock generic map (2) port map (clk, clk2); -- .5s
-Clock1s: GenClock generic map (3) port map (clk, clk3); -- 1s
-Clock2s: GenClock generic map (4) port map (clk, clk4); -- 2s
+
 component GenClock
 	generic (time_period : integer range 1 to 4);
 	port (clk : in std_logic;
@@ -47,10 +42,9 @@ begin
 	 State<=NextState;
 	when 6=>
 	 State<=NextState
-	when 7 & clk4=>
-	 if PB = '1' then State<=NextState;
-	 end if;
-	when 8 & clk4=>
+	when 7=>
+	 State<=NextState;
+	when 8=>
 	 State<=NextState;
 	when 9=>
 	 State<=NextState;
@@ -77,4 +71,6 @@ begin
   WALK <= '1' when (NextState >= 9)
   else '0';
 
+	Clock1s: GenClock generic map (1) port map(clk, clk1);
+	Clock4s: GenClock generic map (3) prot map(clk, clk4);
 end Structure;
