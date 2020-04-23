@@ -1,0 +1,50 @@
+C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/LAB8/LEDDisplay.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/LAB8/LEDDisplay.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity LEDDisplay
+-- Compiling architecture Behav of LEDDisplay
+
+} {} {}} C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/LAB8/AnodeControl.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/LAB8/AnodeControl.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity AnodeControl
+-- Compiling architecture behav of AnodeControl
+
+} {} {}} C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/LAB8/dec_7seg.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/LAB8/dec_7seg.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity dec_7seg
+-- Compiling architecture a of dec_7seg
+
+} {} {}} C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/LAB8/Lab7Bench.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/LAB8/Lab7Bench.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity Lab7Bench
+-- Compiling architecture Behavioral of Lab7Bench
+
+} {} {}} C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/LAB8/genclock.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/LAB8/genclock.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity GenClock
+-- Compiling architecture Behavior of GenClock
+
+} {} {}}

@@ -1,4 +1,20 @@
-C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/LAB8/twosComp.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/LAB8/twosComp.vhd
+C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/LAB8/fullAdder.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/LAB8/fullAdder.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity fullAdder
+-- Compiling architecture behave of fullAdder
+
+} {} {}} C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/LAB8/fullSubtractor.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/LAB8/fullSubtractor.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity fullSubtractor
+-- Compiling architecture behave of fullSubtractor
+
+} {} {}} C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/LAB8/twosComp.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/LAB8/twosComp.vhd
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
