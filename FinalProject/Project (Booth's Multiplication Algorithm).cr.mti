@@ -79,15 +79,59 @@ Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 
 -- Compiling entity fullSubtractor
 -- Compiling architecture behave of fullSubtractor
 
-} {} {}} C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/subtractor4.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/subtractor4.vhd
+} {} {}} C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/boothMult.vhd {0 {vcom -work work -2002 -explicit -stats=none C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/boothMult.vhd
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity subtractor4
--- Compiling architecture Structure of subtractor4
+-- Loading package NUMERIC_STD
+-- Compiling entity boothMult
+-- Compiling architecture structure of boothMult
+** Warning: C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/boothMult.vhd(54): (vcom-1246) Range 7 to 1 is null.
 
-} {} {}} C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/ASR.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/ASR.vhd
+** Error: C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/boothMult.vhd(54): (vcom-1144) Value 0 (of type std.STANDARD.INTEGER) is out of range 7 to 1 (null range).
+
+** Error (suppressible): C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/boothMult.vhd(63): (vcom-1272) Length of formal "A" is 6; length of actual is 4.
+
+** Error (suppressible): C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/boothMult.vhd(63): (vcom-1272) Length of formal "B" is 6; length of actual is 4.
+
+** Error (suppressible): C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/boothMult.vhd(63): (vcom-1272) Length of formal "D" is 6; length of actual is 4.
+
+** Error: C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/boothMult.vhd(73): (vcom-1337) Case statement choice 1 is outside the range of the selector expression (7 to 1).
+
+** Error: C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/boothMult.vhd(79): (vcom-1337) Case statement choice 2 is outside the range of the selector expression (7 to 1).
+
+** Error: C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/boothMult.vhd(82): (vcom-1337) Case statement choice 3 is outside the range of the selector expression (7 to 1).
+
+** Error: C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/boothMult.vhd(85): (vcom-1337) Case statement choice 4 is outside the range of the selector expression (7 to 1).
+
+** Error: C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/boothMult.vhd(88): (vcom-1337) Case statement choice 5 is outside the range of the selector expression (7 to 1).
+
+** Error: C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/boothMult.vhd(91): (vcom-1337) Case statement choice 6 is outside the range of the selector expression (7 to 1).
+
+** Error: C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/boothMult.vhd(96): (vcom-1337) Case statement choice 7 is outside the range of the selector expression (7 to 1).
+
+** Warning: C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/boothMult.vhd(73): (vcom-1144) Value 2 (of type std.STANDARD.INTEGER) is out of range 7 to 1 (null range).
+
+** Warning: C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/boothMult.vhd(74): (vcom-1144) Value 3 (of type std.STANDARD.INTEGER) is out of range 7 to 1 (null range).
+
+** Warning: C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/boothMult.vhd(75): (vcom-1144) Value 4 (of type std.STANDARD.INTEGER) is out of range 7 to 1 (null range).
+
+** Warning: C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/boothMult.vhd(79): (vcom-1144) Value 4 (of type std.STANDARD.INTEGER) is out of range 7 to 1 (null range).
+
+** Warning: C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/boothMult.vhd(82): (vcom-1144) Value 4 (of type std.STANDARD.INTEGER) is out of range 7 to 1 (null range).
+
+** Warning: C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/boothMult.vhd(85): (vcom-1144) Value 5 (of type std.STANDARD.INTEGER) is out of range 7 to 1 (null range).
+
+** Warning: C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/boothMult.vhd(88): (vcom-1144) Value 6 (of type std.STANDARD.INTEGER) is out of range 7 to 1 (null range).
+
+** Warning: C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/boothMult.vhd(91): (vcom-1144) Value 7 (of type std.STANDARD.INTEGER) is out of range 7 to 1 (null range).
+
+** Warning: C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/boothMult.vhd(92): (vcom-1144) Value 1 (of type std.STANDARD.INTEGER) is out of range 7 to 1 (null range).
+
+** Error: C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/boothMult.vhd(108): VHDL Compiler exiting
+
+} {11.0 12.0 19.0 20.0 21.0 22.0 23.0 24.0 25.0 26.0 27.0 28.0 29.0 30.0 31.0 32.0 51.0 52.0} {}} C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/ASR.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/ASR.vhd
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
