@@ -6,11 +6,10 @@ entity boothMult is
 	port(
 		-- Inputs
 		M, Q, A: in std_logic_vector(3 downto 0); -- 4 bit Multiplicand
-		Idx: in integer range 0 to 9;
 		N: inout integer range 0 to 9;
 		-- Outputs
 		Output: out std_logic_vector(7 downto 0); --8 bit
-		Carry: in std_logic --1 bit		
+		Carry: out std_logic --1 bit		
 	);
 end boothMult;
 
@@ -42,16 +41,8 @@ architecture structure of boothMult is
 		);
 	end component;
 
-	component twosComp
-		port(
-			A : in std_logic_vector(n+(n-1)*2 downto 0);
-			Z : out std_logic_vector(n+(n-1)*2 downto 0)
-		);
-	end component;
-
-
 	------------------- 01. SIGNAL/STATE DEFINITION -------------------
-	signal state: integer range 6 to 0:= 0;
+	signal state: integer range 0 to 6:= 0;
 	signal Q0, adderCarry, adderCO, shiftCarry, subtractorCarry, subtractorCO: std_logic := '0';
 	signal shiftResult: unsigned(3 downto 0);
 	signal AddSubResult: std_logic_vector(3 downto 0);
@@ -59,9 +50,9 @@ architecture structure of boothMult is
 
 	-- Implementation of components via portmapping
 	begin
-	ADDER: adder4 port map (A, M, adderCarry, AddSubResult, adderCO);
-	SUBTRACTOR: subtractor4 port map (A, M, subtractorCarry, AddSubResult, subtractorCO);
-	RSHIFT: ASR port map (AddSubResult, shiftResult, shiftCarry);
+	ADDER: adder4 port map (A, M, adderCarry, A, adderCO);
+	SUBTRACTOR: subtractor4 port map (A, M, subtractorCarry, A, subtractorCO);
+	RSHIFT: ASR port map (A, shiftResult, shiftCarry);
 
 	------------------- 02. LOGIC IMPLEMENTATION -------------------
 			process(state) 
@@ -70,7 +61,7 @@ architecture structure of boothMult is
 					case state is
 					
 						-- State 1: q1q0 check
-						when 0 => if Q(0) = '1' and Q0 = '1' then state <= 1;
+						when 0 => if Q(0) = '1' and Q0 = '0' then state <= 1;
 							elsif Q(0) = '0' and Q0 = '1'then state <= 2;
 							else state <= 3;
 							end if;
@@ -98,11 +89,13 @@ architecture structure of boothMult is
 			end process;
 
 	-- Do all conditional statements here
-	-- 2) AddSubResult => (A - M);
-	AddSubResult <= A when (state = 2);
-	-- 3) AddSubResult => (A + M);
-	AddSubResult <= A when (state = 3);
-	-- 5) N => N-1;
+	-- 1) AddSubResult => (A - M);
+	A <= A when (state = 1);
+	-- 2) AddSubResult => (A + M);
+	A <= A when (state = 2);
+	-- 3) Perform ASR on A;
+	A <= A when (state = 3);
+	-- 4) N => N-1;
 	N <= N - 1 when (state = 5);
 
 end structure;
