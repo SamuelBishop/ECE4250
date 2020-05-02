@@ -10,30 +10,30 @@ More traditional multiplier circuits include the Add-and-Shift and the Array Mul
 
 The `boothMult.vhd` circuit is a composition of the `adder4.vhd`, `subtractor4.vhd`, and `ASR.vhd` circuits.
 ```VHDL
-	component adder4
-		port(
-			A,B: in std_logic_vector(3 downto 0);
-			Ci: in std_logic; -- Inputs
-			S: out std_logic_vector(3 downto 0);
-			Co: out std_logic -- Output
-		);
-	end component;
+component adder4
+	port(
+		A,B: in std_logic_vector(3 downto 0);
+		Ci: in std_logic; -- Inputs
+		S: out std_logic_vector(3 downto 0);
+		Co: out std_logic -- Output
+	);
+end component;
 
-	component subtractor4
-		port(
-			A,B: in std_logic_vector(3 downto 0);
-			Bi: in std_logic; -- Inputs
-			D: out std_logic_vector(3 downto 0);
-			Bo: out std_logic -- Output
-		);
-	end component;
+component subtractor4
+	port(
+		A,B: in std_logic_vector(3 downto 0);
+		Bi: in std_logic; -- Inputs
+		D: out std_logic_vector(3 downto 0);
+		Bo: out std_logic -- Output
+	);
+end component;
 
-	component ASR
-		port(
-			toShift     : in std_logic_vector(3 downto 0);
-  			unsignedOut : out unsigned(3 downto 0);
-			outbit		: out std_logic
-		);
-	end component;
+component ASR
+	port(
+		toShift     : in std_logic_vector(3 downto 0);
+		unsignedOut : out unsigned(3 downto 0);
+		outbit		: out std_logic
+	);
+end component;
 ```
 After the components are defined within the Booth Multiplier file a finite state machine handles signal and logic processing.
