@@ -6,7 +6,7 @@ This is the repository for the Booth Multiplier Circuit Final Project created fo
 
 Booth's multiplication algorithm is a multiplication algorithm that multiplies two signed binary numbers. Booth's multiplication algorithm is extremely helpful in the Computer Science and Electrical Engineering world because it operates based upon the fact that binary strings within the multiplier given certain conditions require no addition and instead can be shifted, greatly reducing the time complexity and cost efficiency of a multiplier.
 
-More traditional multiplier circuits include the Add-and-Shift and the Array Multiplier Circuit which sport drastically slower worst-case and average-case multiply times.
+More traditional multiplier circuits include the Add-and-Shift and the Array Multiplier circuits which sport drastically slower worst-case and average-case multiply times.
 
 The `boothMult.vhd` circuit is a composition of the `adder4.vhd`, `subtractor4.vhd`, and `ASR.vhd` circuits.
 ```VHDL
