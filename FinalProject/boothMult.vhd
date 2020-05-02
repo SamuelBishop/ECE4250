@@ -99,6 +99,6 @@ architecture structure of boothMult is
 	Q <= Q when (state = 3); -- Perform shift on Q
 	Q0 <= shiftCarry2 when (state = 3); -- Set the outbit to the Q0 element
 	-- 4) N => N-1;
-	N <= N - 1 when (state = 5);
+	N <= N - 1 when (state = 4);
 
 end structure;
