@@ -44,15 +44,18 @@ architecture structure of boothMult is
 	------------------- 01. SIGNAL/STATE DEFINITION -------------------
 	signal state: integer range 0 to 6:= 0;
 	signal Q0, adderCarry, adderCO, shiftCarry1, shiftCarry2, subtractorCarry, subtractorCO: std_logic := '0';
-	signal shiftResult: unsigned(3 downto 0);
-	signal ending: std_logic := '0';
+	signal shiftResultA, shiftResultQ: unsigned(3 downto 0);
+	signal dynN: integer range 0 to 9;
+	signal Accumulator, Multiplier, Multiplicand, AdderOutput, SubtractorOutput: std_logic_vector(3 downto 0);
+	signal OP: std_logic_vector(7 downto 0);
 
 	-- Implementation of components via portmapping
 	begin
-	ADDER: adder4 port map (A, M, adderCarry, A, adderCO);
-	SUBTRACTOR: subtractor4 port map (A, M, subtractorCarry, A, subtractorCO);
-	RSHIFT: ASR port map (A, shiftResult, shiftCarry1);
-	RSHIFT: ASR port map (A, shiftResult, shiftCarry2);
+
+	ADDER: adder4 port map (Accumulator, Multiplicand, adderCarry, AdderOutput, adderCO);
+	SUBTRACTOR: subtractor4 port map (Accumulator, Multiplicand, subtractorCarry, SubtractorOutput, subtractorCO);
+	RSHIFTA: ASR port map (Accumulator, shiftResultA, shiftCarry1);
+	RSHIFTQ: ASR port map (Accumulator, shiftResultQ, shiftCarry2);
 
 	------------------- 02. LOGIC IMPLEMENTATION -------------------
 			process(state) 
@@ -60,45 +63,55 @@ architecture structure of boothMult is
 				-- Start the state logic
 					case state is
 					
-						-- State 1: q1q0 check
+						-- State 0: q1q0 check
 						when 0 => if Q(0) = '1' and Q0 = '0' then state <= 1;
 							elsif Q(0) = '0' and Q0 = '1'then state <= 2;
 							else state <= 3;
 							end if;
 					
-						-- State 2: Subtraction
+						-- State 1: Subtraction
 						when 1 => state <= 3;
 
-						-- State 3: Addition
+						-- State 2: Addition
 						when 2 => state <= 3;
 
-						-- State 4: ASR
+						-- State 3: ASR
 						when 3 => state <= 4;
 
-						-- State 5: Decrement n
+						-- State 4: Decrement n
 						when 4 => state <= 5;
 
-						-- State 6: Check 0
-						when 5 => if N = 0 then state <= 6;
-							else state <= 1; 
+						-- State 5: Check 0
+						when 5 => if dynN = 0 then state <= 6;
+							else state <= 0; 
 							end if;
 
-						-- State 7: Report AQ
-						when 6 => ending <= '1';
+						-- State 6: Report AQ
+						when 6 => OP(0) <= Accumulator(0); OP(1) <= Accumulator(1); OP(2) <= Accumulator(2); OP(3) <= Accumulator(3);
+							OP(4) <= Multiplier(0); OP(5) <= Multiplier(1); OP(6) <= Multiplier(2); OP(7) <= Multiplier(3);
 					end case;
 			end process;
 
 	-- Do all conditional statements here
 	-- 1) AddSubResult => (A - M);
-	A <= A when (state = 1);
+	Accumulator <= A when (state = 1);
+	Multiplicand <= M when (state = 1);
+	Accumulator <= SubtractorOutput when (state = 1);
 	-- 2) AddSubResult => (A + M);
-	A <= A when (state = 2);
+	Accumulator <= A when (state = 2);
+	Multiplicand <= M when (state = 2);
+	Accumulator <= AdderOutput when (state = 2);
 	-- 3) Perform ASR on A;
-	A <= A when (state = 3); -- Perform shift on A
-	Q(0) <= shiftCarry1 when (state = 3); -- Set the outbit to the first element of Q
-	Q <= Q when (state = 3); -- Perform shift on Q
+	Accumulator <= std_logic_vector(shiftResultA) when (state = 3); -- Perform shift on A
+	Multiplier(0) <= shiftCarry1 when (state = 3); -- Set the outbit to the first element of Q
+	Multiplier <= std_logic_vector(shiftResultQ) when (state = 3); -- Perform shift on Q
 	Q0 <= shiftCarry2 when (state = 3); -- Set the outbit to the Q0 element
+	A <= Accumulator when (state = 3);
+	M <= Multiplicand when (state = 3);
 	-- 4) N => N-1;
-	N <= N - 1 when (state = 5);
+	dynN <= N - 1 when (state = 4);
+	N <= dynN when (state = 4);
+	-- 6) Output = OP
+	Output <= OP when (state = 6);
 
 end structure;
