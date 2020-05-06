@@ -10,6 +10,6 @@ end fullSubtractor;
 
 Architecture behave of fullSubtractor is
 begin
-	Bout <= ((not X) and Bin) or ((not X) and Y) or (Y and Bin) after 10 ns;
-	D <= X xor Y xor Bin after 10 ns;
+	Bout <= ((not X) and Bin) or ((not X) and Y) or (Y and Bin);
+	D <= X xor Y xor Bin;
 end behave;

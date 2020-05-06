@@ -10,6 +10,6 @@ end fullAdder;
 
 Architecture behave of fullAdder is
 begin
-	Cout <= (X and Y) or (X and Cin) or (Y and Cin) after 10 ns;
-	Sum <= X xor Y xor Cin after 10 ns;
+	Cout <= (X and Y) or (X and Cin) or (Y and Cin);
+	Sum <= X xor Y xor Cin;
 end behave;
