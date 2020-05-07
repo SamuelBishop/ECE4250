@@ -70,7 +70,7 @@ Z17 !s107 C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/LAB8/addShiftMult.vhd|
 R11
 R12
 Easr
-Z18 w1588622848
+Z18 w1588869018
 Z19 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
 R1
 R2
@@ -83,9 +83,9 @@ VgzBdJcDRVhnF7nSUc6lPZ1
 !s100 I9]9o^a5;k3JKdgb^=bYn2
 R6
 32
-Z22 !s110 1588622853
+Z22 !s110 1588869569
 !i10b 1
-Z23 !s108 1588622853.000000
+Z23 !s108 1588869569.000000
 Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/ASR.vhd|
 Z25 !s107 C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/ASR.vhd|
 !i113 1
@@ -154,7 +154,7 @@ R34
 R11
 R12
 Eboothmult
-Z35 w1588809303
+Z35 w1588869618
 R19
 R1
 R2
@@ -167,9 +167,9 @@ VY`UkaoQNkOZW=cQCz^HBA0
 !s100 4Q99lK4Z<hHbYKmf7>2a[1
 R6
 32
-Z36 !s110 1588809697
+Z36 !s110 1588869622
 !i10b 1
-Z37 !s108 1588809697.000000
+Z37 !s108 1588869622.000000
 R33
 R34
 !i113 1
@@ -180,10 +180,10 @@ R19
 R1
 R2
 Z38 DEx4 work 9 boothmult 0 22 Y`UkaoQNkOZW=cQCz^HBA0
-l51
+l52
 L15
-Z39 V:D0<4EgT;0zQ]nWIDWlVV3
-Z40 !s100 MUokJ?mPNOO0li>bV3=nB3
+Va9^=7nNYT?gzShBmXDOS:0
+!s100 @[SKo@a<e<RoY09[HJfJA2
 R6
 32
 R36
@@ -195,24 +195,24 @@ R34
 R11
 R12
 Eboothmult_tb
-Z41 w1588809691
+Z39 w1588809691
 R19
 R1
 R2
 R3
-Z42 8C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/boothMult_tb.vhd
-Z43 FC:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/boothMult_tb.vhd
+Z40 8C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/boothMult_tb.vhd
+Z41 FC:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/boothMult_tb.vhd
 l0
 L5
 VTi?9feoe8?h=N1:CE1Ia?2
 !s100 9[02LS]n5Nz@3jX@CAC^B3
 R6
 32
-Z44 !s110 1588809694
+Z42 !s110 1588809694
 !i10b 1
-Z45 !s108 1588809694.000000
-Z46 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/boothMult_tb.vhd|
-Z47 !s107 C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/boothMult_tb.vhd|
+Z43 !s108 1588809694.000000
+Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/boothMult_tb.vhd|
+Z45 !s107 C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/boothMult_tb.vhd|
 !i113 1
 R11
 R12
@@ -227,32 +227,32 @@ Vd^iPk`fTAWWLIHEe=KMe01
 !s100 [cShO7^=h_>MW^dE4>L8C2
 R6
 32
-R44
+R42
 !i10b 1
+R43
+R44
 R45
-R46
-R47
 !i113 1
 R11
 R12
 Efulladder
-Z48 w1588692005
+Z46 w1588692005
 R1
 R2
 R3
-Z49 8C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/fullAdder.vhd
-Z50 FC:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/fullAdder.vhd
+Z47 8C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/fullAdder.vhd
+Z48 FC:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/fullAdder.vhd
 l0
 L4
 VI[_X^UF_bjDVP[gLWzTzS2
 !s100 >gHdD]X_bk0mO>73VMFH91
 R6
 32
-Z51 !s110 1588692101
+Z49 !s110 1588692101
 !i10b 1
-Z52 !s108 1588692101.000000
-Z53 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/fullAdder.vhd|
-Z54 !s107 C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/fullAdder.vhd|
+Z50 !s108 1588692101.000000
+Z51 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/fullAdder.vhd|
+Z52 !s107 C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/fullAdder.vhd|
 !i113 1
 R11
 R12
@@ -266,32 +266,32 @@ V^cXzJS<;dff@ZaUMj3?XJ2
 !s100 43^?5IPCkAK2GDW]6D6ka3
 R6
 32
-R51
+R49
 !i10b 1
+R50
+R51
 R52
-R53
-R54
 !i113 1
 R11
 R12
 Efullsubtractor
-Z55 w1588691991
+Z53 w1588691991
 R1
 R2
 R3
-Z56 8C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/fullSubtractor.vhd
-Z57 FC:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/fullSubtractor.vhd
+Z54 8C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/fullSubtractor.vhd
+Z55 FC:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/fullSubtractor.vhd
 l0
 L4
 V4a>J1XYi6XSdS3zZM?d^I0
 !s100 R7cCgQdU?]oV@MT5[6a5P1
 R6
 32
-Z58 !s110 1588692104
+Z56 !s110 1588692104
 !i10b 1
-Z59 !s108 1588692104.000000
-Z60 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/fullSubtractor.vhd|
-Z61 !s107 C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/fullSubtractor.vhd|
+Z57 !s108 1588692104.000000
+Z58 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/fullSubtractor.vhd|
+Z59 !s107 C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/fullSubtractor.vhd|
 !i113 1
 R11
 R12
@@ -305,16 +305,16 @@ VNccA1di:?`oAn4k<<>[aY1
 !s100 SOhe5QmK;Mg[Bj_nW<X>d1
 R6
 32
-R58
+R56
 !i10b 1
+R57
+R58
 R59
-R60
-R61
 !i113 1
 R11
 R12
 Emult
-Z62 w1587260570
+Z60 w1587260570
 R1
 R2
 R13
@@ -326,9 +326,9 @@ V]?5k6Mdnh4I95Xfm1@n:O2
 !s100 ]?h^2ETC@PL?d>gI2:]n=3
 R6
 32
-Z63 !s110 1587260576
+Z61 !s110 1587260576
 !i10b 1
-Z64 !s108 1587260576.000000
+Z62 !s108 1587260576.000000
 R16
 R17
 !i113 1
@@ -344,32 +344,32 @@ VQm6de3UgbJY:J=;F1>QB43
 !s100 P<ZeWS:mlGOF9][Q:2N3@1
 R6
 32
-R63
+R61
 !i10b 1
-R64
+R62
 R16
 R17
 !i113 1
 R11
 R12
 Esubtractor4
-Z65 w1588120990
+Z63 w1588120990
 R1
 R2
 R3
-Z66 8C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/subtractor4.vhd
-Z67 FC:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/subtractor4.vhd
+Z64 8C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/subtractor4.vhd
+Z65 FC:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/subtractor4.vhd
 l0
 L4
 Vid8JBWLc3`1YTa@N2dkCL3
 !s100 WGJke_3NSmd5cG2c:B``F3
 R6
 32
-Z68 !s110 1588120994
+Z66 !s110 1588120994
 !i10b 1
-Z69 !s108 1588120994.000000
-Z70 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/subtractor4.vhd|
-Z71 !s107 C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/subtractor4.vhd|
+Z67 !s108 1588120994.000000
+Z68 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/subtractor4.vhd|
+Z69 !s107 C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/subtractor4.vhd|
 !i113 1
 R11
 R12
@@ -383,41 +383,41 @@ VXk8XoeLJfF2IDlXXA5z]:0
 !s100 j82XReZ6=^@HgGh72Vlkk1
 R6
 32
-R68
+R66
 !i10b 1
+R67
+R68
 R69
-R70
-R71
 !i113 1
 R11
 R12
 Etwoscomp
-Z72 w1587257223
+Z70 w1587257223
 R27
-Z73 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z71 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
 R19
 R1
 R2
 R3
-Z74 8C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/twosComp.vhd
-Z75 FC:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/twosComp.vhd
+Z72 8C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/twosComp.vhd
+Z73 FC:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/twosComp.vhd
 l0
 L6
 Vg@mM`L9YoR`Y8z;Gjd6AU0
 !s100 M^JUA=PWD8dQAYJKnj7IO1
 R6
 32
-Z76 !s110 1588120993
+Z74 !s110 1588120993
 !i10b 1
-Z77 !s108 1588120993.000000
-Z78 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/twosComp.vhd|
-Z79 !s107 C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/twosComp.vhd|
+Z75 !s108 1588120993.000000
+Z76 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/twosComp.vhd|
+Z77 !s107 C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/twosComp.vhd|
 !i113 1
 R11
 R12
 Abehave
 R27
-R73
+R71
 R19
 R1
 R2
@@ -428,11 +428,11 @@ V:e?MmHIk]czK2OABJ[X632
 !s100 9oiJmOePXE;Da<C0Z<cj40
 R6
 32
-R76
+R74
 !i10b 1
+R75
+R76
 R77
-R78
-R79
 !i113 1
 R11
 R12
