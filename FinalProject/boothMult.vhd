@@ -6,10 +6,9 @@ entity boothMult is
 	port(
 		-- Inputs
 		M, Q, A: inout std_logic_vector(3 downto 0); -- 4 bit Multiplicand
-		N: inout integer range 0 to 9;
+		N: inout unsigned(3 downto 0);
 		-- Outputs
-		Output: out std_logic_vector(7 downto 0); --8 bit
-		Carry: out std_logic --1 bit
+		Output: out std_logic_vector(7 downto 0) --8 bit
 	);
 end boothMult;
 
@@ -81,7 +80,7 @@ architecture structure of boothMult is
 						when 4 => state <= 5;
 
 						-- State 5: Check 0
-						when 5 => if N = 0 then state <= 6;
+						when 5 => if N = "0000" then state <= 6;
 							else state <= 0; 
 							end if;
 
