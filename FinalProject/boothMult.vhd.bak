@@ -6,7 +6,7 @@ entity boothMult is
 	port(
 		-- Inputs
 		M, Q, A: inout std_logic_vector(3 downto 0); -- 4 bit Multiplicand
-		N: inout unsigned(3 downto 0);
+		N: inout integer;
 		-- Outputs
 		Output: out std_logic_vector(7 downto 0) --8 bit
 	);
@@ -40,77 +40,58 @@ architecture structure of boothMult is
 		);
 	end component;
 
-	------------------- 01. SIGNAL/STATE DEFINITION -------------------
-	signal state: integer range 0 to 6:= 0;
-	signal Q0, adderCarry, adderCO, shiftCarry1, shiftCarry2, subtractorCarry, subtractorCO: std_logic := '0';
-	signal shiftResultA, shiftResultQ: unsigned(3 downto 0);
-	signal Nsig: unsigned(3 downto 0) := "0100";
-	signal Accumulator, Multiplier, Multiplicand, AddSubOutput: std_logic_vector(3 downto 0);
-	signal OP: std_logic_vector(7 downto 0);
+	------------------- 01. CONSTATNT/SIGNAL/STATE DEFINITION -------------------
+	constant N_val: integer := N;
+	signal state: integer := 0;
+	signal Q0, subtractorCarry, subtractorCO, adderCarry, adderCO: std_logic := '0';
 
-	-- Implementation of components via portmapping
+	------------------- 02. LOGIC PROCESSING -------------------
 	begin
 
-	------------------- 02. LOGIC IMPLEMENTATION -------------------
-			process(state) 
-			begin
-				-- Start the state logic
-					case state is
-					
-						-- State 0: q1q0 check
-						when 0 => if Q(0) = '1' and Q0 = '0' then state <= 1;
-							elsif Q(0) = '0' and Q0 = '1'then state <= 2;
-							else state <= 3;
-							end if;
-					
-						-- State 1: Subtraction
-						when 1 => 
-							Accumulator <= A;
-							Multiplicand <= M;
-							state <= 3;
+	-- "NOT" a state machine but very very similar to a state machine
+	GEN_ADD: for i in 0 to N_val generate
+		if (state = 0) then
+			if (Q(0) = '1' and Q0 = '0') 
+				state <= 1;
+			elsif (Q(0) = '0' and Q0 = '1')
+				state <= 2;
+			else
+				state <= 3;
+			end if;
+		
+		elsif (state = 1)
+			SUB: generate 
+				SUBTRACTOR: subtractor4 port map (A, M, subtractorCarry, A, subtractorCO);
+			end generate SUB;
+			state <= 3;
 
-						-- State 2: Addition
-						when 2 =>
-							Accumulator <= A;
-							Multiplicand <= M;
-							state <= 3;
+		elsif (state = 2)
+			ADD: generate
+				ADDER: adder4 port map (A, M, adderCarry, M, adderCO);
+			end generate ADD;
+			state <= 3;
 
-						-- State 3: ASR
-						when 3 => 
-							Accumulator <= std_logic_vector(shiftResultA); -- Perform shift on A
-							Multiplier(0) <= shiftCarry1; -- Set the outbit to the first element of Q
-							Multiplier <= std_logic_vector(shiftResultQ); -- Perform shift on Q
-							Q0 <= shiftCarry2; -- Set the outbit to the Q0 element
-							A <= Accumulator;
-							M <= Multiplicand;
-							state <= 4;
+		elsif (state = 3)
+			SA: generate 
+				RSHIFTA: ASR port map (A, A, shiftCarry1);
+			end generate SA;
+			SQ: generate
+				RSHIFTQ: ASR port map (Q, Q, shiftCarry2);
+			end generate SQ;
+			Q(3) <= shiftCarry1;
+			Q0 <= shiftCarry2;
+			state <= 0;
+		
+		end if;
+	end loop;
 
-						-- State 4: Decrement n
-						when 4 => 
-							Nsig <= Nsig - 1 when (state = 4);
-							state <= 5;
-
-						-- State 5: Check 0
-						when 5 => if Nsig = 0 then state <= 6;
-							else state <= 0; 
-							end if;
-
-						-- State 6: Report AQ
-						when 6 => OP(7) <= Accumulator(3); OP(6) <= Accumulator(2); OP(5) <= Accumulator(1); OP(4) <= Accumulator(0);
-							OP(3) <= Multiplier(3); OP(2) <= Multiplier(2); OP(1) <= Multiplier(1); OP(0) <= Multiplier(0);
-					end case;
-			end process;
-
-	-- Do all conditional statements here
-	-- 1) AddSubResult => (A - M);
-	SUBTRACTOR: subtractor4 port map (Accumulator, Multiplicand, subtractorCarry, AddSubOutput, subtractorCO);
-	-- 2) AddSubResult => (A + M);
-	ADDER: adder4 port map (Accumulator, Multiplicand, adderCarry, AddSubOutput, adderCO);
-	-- 3) Perform ASR on A;
-	RSHIFTA: ASR port map (Accumulator, shiftResultA, shiftCarry1);
-	RSHIFTQ: ASR port map (Accumulator, shiftResultQ, shiftCarry2);
-
-	-- 6) Output = OP
-	Output <= OP when (state = 6);
+	OP(7) <= A(3); 
+	OP(6) <= A(2); 
+	OP(5) <= A(1); 
+	OP(4) <= A(0);
+	OP(3) <= Q(3); 
+	OP(2) <= Q(2); 
+	OP(1) <= Q(1); 
+	OP(0) <= Q(0);			
 
 end structure;

@@ -41,6 +41,15 @@ Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 
 -- Compiling entity fullSubtractor
 -- Compiling architecture behave of fullSubtractor
 
+} {} {}} C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/boothMult_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/boothMult_tb.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity boothMult_tb
+-- Compiling architecture test of boothMult_tb
+
 } {} {}} C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/fullSubtractor.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/fullSubtractor.vhd
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
 -- Loading package STANDARD
@@ -75,15 +84,6 @@ Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 
 -- Loading package std_logic_1164
 -- Compiling entity subtractor4
 -- Compiling architecture Structure of subtractor4
-
-} {} {}} C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/boothMult.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/boothMult.vhd
-Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity boothMult
--- Compiling architecture structure of boothMult
 
 } {} {}} C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/ASR.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/sjbc3/OneDrive/Desktop/git/ECE4250/FinalProject/ASR.vhd
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
